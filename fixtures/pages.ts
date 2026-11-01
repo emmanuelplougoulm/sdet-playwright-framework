@@ -1,0 +1,20 @@
+import { test as base } from '@playwright/test';
+import { HomePage } from '../pages/HomePage';
+import { ProductPage } from '../pages/ProductPage';
+
+type Pages = {
+  homePage: HomePage;
+  productPage: ProductPage;
+};
+
+// Les tests reçoivent les Page Objects déjà construits, sans "new" dans chaque test.
+export const test = base.extend<Pages>({
+  homePage: async ({ page }, use) => {
+    await use(new HomePage(page));
+  },
+  productPage: async ({ page }, use) => {
+    await use(new ProductPage(page));
+  },
+});
+
+export { expect } from '@playwright/test';
