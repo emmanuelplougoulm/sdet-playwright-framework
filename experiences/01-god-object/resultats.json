@@ -1,0 +1,48 @@
+{
+  "god": {
+    "label": "God object",
+    "fichierAOuvrir": "god/App.ts",
+    "lignesDuFichierAOuvrir": 38,
+    "fichiersModifies": 1,
+    "lignesModifiees": 1,
+    "testsRelances": 8,
+    "fichiersDeSpecRelances": 4,
+    "testsAuTotal": 8,
+    "lignesAuTotal": 100,
+    "fichiersAuTotal": 6,
+    "dureesMs": [
+      6964,
+      7292,
+      7857,
+      8248,
+      8848
+    ],
+    "dureeMedianeMs": 7857
+  },
+  "split": {
+    "label": "Fixtures à la carte",
+    "fichierAOuvrir": "split/components/Cart.ts",
+    "lignesDuFichierAOuvrir": 12,
+    "fichiersModifies": 1,
+    "lignesModifiees": 1,
+    "testsRelances": 2,
+    "fichiersDeSpecRelances": 1,
+    "testsAuTotal": 8,
+    "lignesAuTotal": 140,
+    "fichiersAuTotal": 12,
+    "dureesMs": [
+      6380,
+      6477,
+      6823,
+      6861,
+      9111
+    ],
+    "dureeMedianeMs": 6823
+  },
+  "meta": {
+    "date": "2026-11-22T14:05:10.595Z",
+    "changement": "getByTestId('add-to-cart') -> getByTestId('add-to-cart-button')",
+    "playwright": "Version 1.64.1",
+    "runs": 5
+  }
+}
