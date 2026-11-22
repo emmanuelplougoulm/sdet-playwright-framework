@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "commonjs",
   "description": "Projet fil rouge SDET : Playwright + TypeScript sur Practice Software Testing",
   "devDependencies": {
