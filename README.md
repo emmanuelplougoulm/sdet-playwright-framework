@@ -1,7 +1,16 @@
 # SDET Playwright Framework
 
-Projet fil rouge pour préparer les entretiens SDET : Playwright + TypeScript sur
+Un labo public sur l'architecture du code de test : Playwright + TypeScript sur
 [Practice Software Testing](https://practicesoftwaretesting.com) (application de démo faite pour s'entraîner).
+
+L'idée : une solution d'automatisation de tests mérite la même rigueur que le logiciel qu'elle teste.
+Chaque expérience compare des organisations du code sur les mêmes tests, et mesure la différence.
+
+## Expériences
+
+| # | Question | Résultats |
+|---|---|---|
+| 01 | [God object ou fixtures à la carte ?](experiences/01-god-object/) | Pour un même changement : 12 lignes à lire au lieu de 38, 2 tests relancés sur 8 au lieu de 8, durée inchangée |
 
 ## Démarrer
 
@@ -27,18 +36,19 @@ pages/        Page Objects : un fichier par page, locators + actions
 fixtures/     Fixtures Playwright qui injectent les Page Objects dans les tests
 tests/ui/     Tests de bout en bout dans le navigateur
 tests/api/    Tests de l'API REST (https://api.practicesoftwaretesting.com)
+experiences/  Expériences mesurées, chacune avec son protocole, son script et ses résultats
 .github/      Pipeline GitHub Actions (tests + rapport en artefact)
 ```
 
-## Feuille de route (liée au plan d'étude)
+## Feuille de route
 
-- [x] Bloc 3 : Page Objects, fixtures, locators `data-test`, tests UI
-- [x] Bloc 4 : premiers tests d'API
+- [x] Page Objects, fixtures, locators `data-test`, tests UI
+- [x] Premiers tests d'API
 - [ ] Connexion avec `storageState` (projet `setup` + comptes de test du site)
 - [ ] Panier et commande de bout en bout
 - [ ] Mock réseau avec `page.route()`
 - [ ] Tests d'API : authentification, création, validation de schéma
 - [ ] Données de test générées (factory)
-- [ ] Bloc 5 : sharding dans GitHub Actions, exécution dans Docker
-- [ ] Bloc 5 : test de charge k6
+- [ ] Sharding dans GitHub Actions, exécution dans Docker
+- [ ] Test de charge k6
 - [ ] Accessibilité avec `@axe-core/playwright`

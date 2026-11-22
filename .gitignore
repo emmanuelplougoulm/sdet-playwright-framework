@@ -5,3 +5,7 @@ blob-report/
 playwright/.cache/
 .env
 .mesure/
+
+# Contenus LinkedIn et config locale, hors du repo public
+visuels/
+.claude/
