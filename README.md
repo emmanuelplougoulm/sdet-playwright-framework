@@ -1,5 +1,7 @@
 # SDET Playwright Framework
 
+[![Playwright Tests](https://github.com/emmanuelplougoulm/sdet-playwright-framework/actions/workflows/playwright.yml/badge.svg)](https://github.com/emmanuelplougoulm/sdet-playwright-framework/actions/workflows/playwright.yml)
+
 Un labo public sur l'architecture du code de test : Playwright + TypeScript sur
 [Practice Software Testing](https://practicesoftwaretesting.com) (application de démo faite pour s'entraîner).
 
