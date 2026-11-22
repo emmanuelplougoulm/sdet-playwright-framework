@@ -11,6 +11,7 @@ Chaque expérience compare des organisations du code sur les mêmes tests, et me
 | # | Question | Résultats |
 |---|---|---|
 | 01 | [God object ou fixtures à la carte ?](experiences/01-god-object/) | Pour un même changement : 12 lignes à lire au lieu de 38, 2 tests relancés sur 8 au lieu de 8, durée inchangée |
+| 02 | [Se connecter dans chaque test, ou une fois avec storageState ?](experiences/02-storage-state/) | 1 connexion au lieu de 8, 15 % plus rapide ; quand la connexion casse : 1 échec clair au lieu de 8, run rouge 2 fois plus court |
 
 ## Démarrer
 

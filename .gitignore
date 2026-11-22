@@ -9,3 +9,5 @@ playwright/.cache/
 # Contenus LinkedIn et config locale, hors du repo public
 visuels/
 .claude/
+.auth/
+.mesure-*.json

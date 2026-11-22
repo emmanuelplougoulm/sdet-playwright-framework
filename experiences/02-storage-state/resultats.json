@@ -1,0 +1,71 @@
+{
+  "par-test": {
+    "label": "Connexion dans chaque test",
+    "testsMetier": 8,
+    "connexionsParRun": 8,
+    "dureesMs": [
+      8532,
+      8355,
+      7626,
+      8663,
+      8225
+    ],
+    "dureeMedianeMs": 8355,
+    "msEtapeConnexionMedian": 5800,
+    "changement": {
+      "fichiersModifies": 1,
+      "lignesModifiees": 1,
+      "testsRelances": 8,
+      "detail": [
+        "[par-test] › par-test/specs/compte.spec.ts:3:5 › la page Mon compte s’affiche",
+        "[par-test] › par-test/specs/compte.spec.ts:8:5 › Mon compte mène aux favoris",
+        "[par-test] › par-test/specs/factures.spec.ts:3:5 › la page Factures s’affiche",
+        "[par-test] › par-test/specs/factures.spec.ts:8:5 › Mon compte mène aux factures",
+        "[par-test] › par-test/specs/messages.spec.ts:3:5 › la page Messages s’affiche",
+        "[par-test] › par-test/specs/messages.spec.ts:8:5 › Mon compte mène au profil",
+        "[par-test] › par-test/specs/profil.spec.ts:4:5 › le profil affiche l’e-mail du compte",
+        "[par-test] › par-test/specs/profil.spec.ts:9:5 › le profil propose de changer le mot de passe"
+      ]
+    },
+    "panne": {
+      "dureeMs": 63325,
+      "echecs": 8,
+      "nonExecutes": 0,
+      "setup": null
+    }
+  },
+  "session": {
+    "label": "Connexion une fois (storageState)",
+    "testsMetier": 8,
+    "connexionsParRun": 1,
+    "dureesMs": [
+      6928,
+      7391,
+      7245,
+      6849,
+      7154
+    ],
+    "dureeMedianeMs": 7154,
+    "msEtapeConnexionMedian": 722,
+    "changement": {
+      "fichiersModifies": 1,
+      "lignesModifiees": 1,
+      "testsRelances": 1,
+      "detail": [
+        "[setup] › session/auth.setup.ts:5:6 › connexion du client"
+      ]
+    },
+    "panne": {
+      "dureeMs": 30889,
+      "echecs": 0,
+      "nonExecutes": 8,
+      "setup": "timedOut"
+    }
+  },
+  "meta": {
+    "date": "2026-11-22T20:49:49.925Z",
+    "changement": "getByTestId('login-submit') -> getByTestId('login-button')",
+    "playwright": "Version 1.64.1",
+    "runs": 5
+  }
+}
