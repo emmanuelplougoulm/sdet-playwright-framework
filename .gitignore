@@ -12,3 +12,5 @@ visuels/
 .auth/
 .mesure-*.json
 .mesure-*.journal
+.donnees/
+.outil-*.json

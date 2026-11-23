@@ -1,0 +1,500 @@
+{
+  "parallelisme": {
+    "1": {
+      "jeu-partage": {
+        "echecs": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "erreurs": {},
+        "testsEnEchec": {}
+      },
+      "factory-par-test": {
+        "echecs": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "erreurs": {},
+        "testsEnEchec": {}
+      },
+      "factory-par-worker": {
+        "echecs": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "erreurs": {},
+        "testsEnEchec": {}
+      }
+    },
+    "2": {
+      "jeu-partage": {
+        "echecs": [
+          7,
+          6,
+          6,
+          7,
+          6
+        ],
+        "erreurs": {
+          "Error: expect(received).toBeCloseTo(expected, precision)": 29,
+          "Error: expect(received).toBe(expected) // Object.is equality": 2,
+          "Error: expect(locator).toBeVisible() failed": 1
+        },
+        "testsEnEchec": {
+          "un revenu augmente le solde du compte": 5,
+          "une dépense diminue le solde du compte": 5,
+          "la dernière transaction du compte est la nouvelle": 2,
+          "la page du compte affiche son nom": 1
+        }
+      },
+      "factory-par-test": {
+        "echecs": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "erreurs": {},
+        "testsEnEchec": {}
+      },
+      "factory-par-worker": {
+        "echecs": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "erreurs": {},
+        "testsEnEchec": {}
+      }
+    },
+    "4": {
+      "jeu-partage": {
+        "echecs": [
+          10,
+          11,
+          10,
+          11,
+          10
+        ],
+        "erreurs": {
+          "Error: expect(received).toBeCloseTo(expected, precision)": 36,
+          "Error: expect(received).toBe(expected) // Object.is equality": 16
+        },
+        "testsEnEchec": {
+          "un revenu augmente le solde du compte": 5,
+          "la dernière transaction du compte est la nouvelle": 5,
+          "une dépense diminue le solde du compte": 5
+        }
+      },
+      "factory-par-test": {
+        "echecs": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "erreurs": {},
+        "testsEnEchec": {}
+      },
+      "factory-par-worker": {
+        "echecs": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "erreurs": {},
+        "testsEnEchec": {}
+      }
+    }
+  },
+  "duree": {
+    "8": {
+      "jeu-partage": {
+        "dureesMs": [
+          4211,
+          4068,
+          4155
+        ],
+        "dureeMedianeMs": 4155,
+        "echecs": [
+          3,
+          3,
+          3
+        ]
+      },
+      "factory-par-test": {
+        "dureesMs": [
+          3497,
+          3669,
+          3690
+        ],
+        "dureeMedianeMs": 3669,
+        "echecs": [
+          0,
+          0,
+          0
+        ]
+      },
+      "factory-par-worker": {
+        "dureesMs": [
+          3208,
+          3408,
+          3303
+        ],
+        "dureeMedianeMs": 3303,
+        "echecs": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "40": {
+      "jeu-partage": {
+        "dureesMs": [
+          8775,
+          8830,
+          8995
+        ],
+        "dureeMedianeMs": 8830,
+        "echecs": [
+          10,
+          9,
+          8
+        ]
+      },
+      "factory-par-test": {
+        "dureesMs": [
+          9313,
+          9154,
+          9351
+        ],
+        "dureeMedianeMs": 9313,
+        "echecs": [
+          0,
+          0,
+          0
+        ]
+      },
+      "factory-par-worker": {
+        "dureesMs": [
+          5629,
+          6673,
+          6668
+        ],
+        "dureeMedianeMs": 6668,
+        "echecs": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "200": {
+      "jeu-partage": {
+        "dureesMs": [
+          40398,
+          42673,
+          49630
+        ],
+        "dureeMedianeMs": 42673,
+        "echecs": [
+          50,
+          52,
+          56
+        ]
+      },
+      "factory-par-test": {
+        "dureesMs": [
+          44259,
+          44714,
+          47148
+        ],
+        "dureeMedianeMs": 44714,
+        "echecs": [
+          0,
+          0,
+          0
+        ]
+      },
+      "factory-par-worker": {
+        "dureesMs": [
+          23048,
+          25027,
+          26733
+        ],
+        "dureeMedianeMs": 25027,
+        "echecs": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "residus": {
+    "jeu-partage": {
+      "apresRunNormal": {
+        "comptes": 1,
+        "categories": 1,
+        "tags": 1,
+        "transactions": 25
+      },
+      "apresSIGINT": {
+        "comptes": 1,
+        "categories": 1,
+        "tags": 1,
+        "transactions": 22
+      },
+      "apresSIGKILL": {
+        "comptes": 1,
+        "categories": 1,
+        "tags": 1,
+        "transactions": 22
+      }
+    },
+    "factory-par-test": {
+      "apresRunNormal": {
+        "comptes": 0,
+        "categories": 0,
+        "tags": 0,
+        "transactions": 0
+      },
+      "apresSIGINT": {
+        "comptes": 0,
+        "categories": 1,
+        "tags": 1,
+        "transactions": 1
+      },
+      "apresSIGKILL": {
+        "comptes": 4,
+        "categories": 2,
+        "tags": 2,
+        "transactions": 1
+      }
+    },
+    "factory-par-worker": {
+      "apresRunNormal": {
+        "comptes": 0,
+        "categories": 0,
+        "tags": 0,
+        "transactions": 0
+      },
+      "apresSIGINT": {
+        "comptes": 0,
+        "categories": 0,
+        "tags": 0,
+        "transactions": 0
+      },
+      "apresSIGKILL": {
+        "comptes": 4,
+        "categories": 4,
+        "tags": 4,
+        "transactions": 37
+      }
+    }
+  },
+  "pollution": {
+    "jeu-partage": [
+      {
+        "runSabote": {
+          "echecs": 12,
+          "testsEnEchec": [
+            "un test échoue avant de remettre le compte en état",
+            "une dépense diminue le solde du compte · 1",
+            "la dernière transaction du compte est la nouvelle · 1",
+            "un revenu augmente le solde du compte · 1",
+            "la dernière transaction du compte est la nouvelle · 2",
+            "une dépense diminue le solde du compte · 2",
+            "un revenu augmente le solde du compte · 2",
+            "une dépense diminue le solde du compte · 4",
+            "un revenu augmente le solde du compte · 4",
+            "un revenu augmente le solde du compte · 5",
+            "une dépense diminue le solde du compte · 5",
+            "la page du compte affiche son nom · 3"
+          ]
+        },
+        "runSuivant": {
+          "echecs": 10,
+          "testsEnEchec": [
+            "la dernière transaction du compte est la nouvelle · 1",
+            "une dépense diminue le solde du compte · 1",
+            "un revenu augmente le solde du compte · 1",
+            "la dernière transaction du compte est la nouvelle · 2",
+            "un revenu augmente le solde du compte · 3",
+            "une dépense diminue le solde du compte · 4",
+            "un revenu augmente le solde du compte · 4",
+            "un revenu augmente le solde du compte · 5",
+            "une dépense diminue le solde du compte · 5",
+            "la page du compte affiche son nom · 2"
+          ]
+        }
+      },
+      {
+        "runSabote": {
+          "echecs": 13,
+          "testsEnEchec": [
+            "un test échoue avant de remettre le compte en état",
+            "la dernière transaction du compte est la nouvelle · 1",
+            "une dépense diminue le solde du compte · 1",
+            "un revenu augmente le solde du compte · 1",
+            "la dernière transaction du compte est la nouvelle · 2",
+            "un revenu augmente le solde du compte · 2",
+            "une dépense diminue le solde du compte · 2",
+            "un revenu augmente le solde du compte · 3",
+            "la dernière transaction du compte est la nouvelle · 3",
+            "une dépense diminue le solde du compte · 4",
+            "un revenu augmente le solde du compte · 4",
+            "la dernière transaction du compte est la nouvelle · 5",
+            "une dépense diminue le solde du compte · 5"
+          ]
+        },
+        "runSuivant": {
+          "echecs": 9,
+          "testsEnEchec": [
+            "la dernière transaction du compte est la nouvelle · 1",
+            "un revenu augmente le solde du compte · 1",
+            "une dépense diminue le solde du compte · 1",
+            "une dépense diminue le solde du compte · 3",
+            "un revenu augmente le solde du compte · 3",
+            "un revenu augmente le solde du compte · 4",
+            "une dépense diminue le solde du compte · 5",
+            "un revenu augmente le solde du compte · 5",
+            "la page du compte affiche son nom · 2"
+          ]
+        }
+      },
+      {
+        "runSabote": {
+          "echecs": 12,
+          "testsEnEchec": [
+            "un test échoue avant de remettre le compte en état",
+            "la dernière transaction du compte est la nouvelle · 1",
+            "une dépense diminue le solde du compte · 1",
+            "un revenu augmente le solde du compte · 1",
+            "une dépense diminue le solde du compte · 2",
+            "la dernière transaction du compte est la nouvelle · 2",
+            "un revenu augmente le solde du compte · 2",
+            "une dépense diminue le solde du compte · 4",
+            "un revenu augmente le solde du compte · 4",
+            "un revenu augmente le solde du compte · 5",
+            "une dépense diminue le solde du compte · 5",
+            "la page du compte affiche son nom · 3"
+          ]
+        },
+        "runSuivant": {
+          "echecs": 10,
+          "testsEnEchec": [
+            "un revenu augmente le solde du compte · 1",
+            "la dernière transaction du compte est la nouvelle · 1",
+            "une dépense diminue le solde du compte · 1",
+            "une dépense diminue le solde du compte · 3",
+            "un revenu augmente le solde du compte · 3",
+            "une dépense diminue le solde du compte · 4",
+            "la dernière transaction du compte est la nouvelle · 5",
+            "une dépense diminue le solde du compte · 5",
+            "un revenu augmente le solde du compte · 5",
+            "la page du compte affiche son nom · 2"
+          ]
+        }
+      }
+    ],
+    "factory-par-test": [
+      {
+        "runSabote": {
+          "echecs": 1,
+          "testsEnEchec": [
+            "un test échoue avant de remettre le compte en état"
+          ]
+        },
+        "runSuivant": {
+          "echecs": 0,
+          "testsEnEchec": []
+        }
+      },
+      {
+        "runSabote": {
+          "echecs": 1,
+          "testsEnEchec": [
+            "un test échoue avant de remettre le compte en état"
+          ]
+        },
+        "runSuivant": {
+          "echecs": 0,
+          "testsEnEchec": []
+        }
+      },
+      {
+        "runSabote": {
+          "echecs": 1,
+          "testsEnEchec": [
+            "un test échoue avant de remettre le compte en état"
+          ]
+        },
+        "runSuivant": {
+          "echecs": 0,
+          "testsEnEchec": []
+        }
+      }
+    ],
+    "factory-par-worker": [
+      {
+        "runSabote": {
+          "echecs": 1,
+          "testsEnEchec": [
+            "un test échoue avant de remettre le compte en état"
+          ]
+        },
+        "runSuivant": {
+          "echecs": 0,
+          "testsEnEchec": []
+        }
+      },
+      {
+        "runSabote": {
+          "echecs": 1,
+          "testsEnEchec": [
+            "un test échoue avant de remettre le compte en état"
+          ]
+        },
+        "runSuivant": {
+          "echecs": 0,
+          "testsEnEchec": []
+        }
+      },
+      {
+        "runSabote": {
+          "echecs": 1,
+          "testsEnEchec": [
+            "un test échoue avant de remettre le compte en état"
+          ]
+        },
+        "runSuivant": {
+          "echecs": 0,
+          "testsEnEchec": []
+        }
+      }
+    ]
+  },
+  "meta": {
+    "date": "2026-11-23T18:45:28.110Z",
+    "playwright": "Version 1.64.1",
+    "firefly": "fireflyiii/core:version-6.7.9 + mariadb:11.8, en local (Colima)",
+    "runs": 3
+  }
+}
