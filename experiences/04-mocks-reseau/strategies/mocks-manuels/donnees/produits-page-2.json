@@ -1,0 +1,274 @@
+{
+  "statut": 200,
+  "corps": {
+    "current_page": 2,
+    "data": [
+      {
+        "id": "01M84XKTK1Q40KGST1T4A3HBZ4",
+        "name": "Sledgehammer",
+        "description": "Powerful sledgehammer designed for heavy demolition, driving stakes, breaking concrete, and splitting masonry with devastating efficiency. The 3.6kg forged steel head delivers tremendous impact force concentrated through a hardened striking face that resists chipping and mushrooming. A 900mm fiberglass handle provides excellent shock absorption, superior reach, and the flexibility needed to generate maximum swing velocity. Anti-vibration technology embedded in the handle dampens recoil forces, significantly reducing operator fatigue during extended demolition sessions. The overmolded grip zone prevents the handle from twisting or slipping out of sweaty or gloved hands during overhead swings. Built for construction workers, landscapers, and demolition crews who demand professional-grade striking tools that perform reliably under the most punishing conditions.",
+        "price": 17.75,
+        "is_location_offer": false,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAM",
+          "by_name": "Fausto Marqués",
+          "by_url": "https://unsplash.com/@faustomarques",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/A9dq-L3zzHA",
+          "file_name": "hammer05.avif",
+          "title": "Hammer"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1JZ",
+          "name": "Hammer",
+          "slug": "hammer"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTK4Z1C72B0C3GMTFP56",
+        "name": "Claw Hammer with Fiberglass Handle",
+        "description": "Modern claw hammer featuring a durable fiberglass handle that outlasts wood, absorbs vibration more effectively, and shrugs off moisture without swelling, cracking, or loosening over time. The 400g carbon steel head is drop-forged and heat-treated to optimal hardness for reliable nail driving in softwood, hardwood, and engineered lumber. The fiberglass core is permanently bonded to the head and encased in a comfortable overmold grip that prevents slipping even when wet or oily. A magnetic nail starter near the head allows one-handed nail placement, freeing your other hand to hold materials in position. The curved claw provides smooth, controlled nail extraction with excellent leverage. Ideal for contractors and DIY builders who want a weather-resistant, maintenance-free hammer that performs reliably on every job site and in any season.",
+        "price": 20.14,
+        "is_location_offer": false,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAN",
+          "by_name": "Jonny Gios",
+          "by_url": "https://unsplash.com/@supergios",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/ARaYGFeuwpU",
+          "file_name": "hammer06.avif",
+          "title": "Claw Hammer"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1JZ",
+          "name": "Hammer",
+          "slug": "hammer"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTK79TE4XGK45H18N3F6",
+        "name": "Court Hammer",
+        "description": "Compact precision court hammer with a 300g carbon steel head designed for light-duty nailing, tapping dowels, and delicate assembly tasks where a full-size hammer would be too heavy and unwieldy. The short 280mm wooden handle provides excellent close-quarters control for detailed work in confined spaces such as cabinets, closets, and furniture interiors. The polished flat face drives small nails and brads without bending them, while the cross-peen on the opposite side is useful for starting small fasteners between your fingers. Perfectly weighted to provide enough force for trim carpentry and light framing without damaging delicate surfaces. The lacquered wooden handle resists moisture absorption and provides a warm, comfortable grip. A handy addition to any toolkit when precision and finesse matter more than raw striking power.",
+        "price": 18.63,
+        "is_location_offer": true,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAP",
+          "by_name": "Wesley Tingey",
+          "by_url": "https://unsplash.com/@wesleyphotography",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/9z9fxr_7Z-k",
+          "file_name": "hammer07.avif",
+          "title": "Hammer"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1JZ",
+          "name": "Hammer",
+          "slug": "hammer"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTK8ACK7C9ZZAES6EVN6",
+        "name": "Wood Saw",
+        "description": "Traditional hand saw crafted with a high carbon steel blade featuring 7 teeth per inch for efficient crosscutting and ripping of timber, plywood, and composite boards. The 500mm blade length handles standard dimensional lumber, sheet goods, and tree branches with smooth, clean cuts that require minimal sanding afterward. Each tooth is precision-set and hardened to stay sharp through hundreds of cuts in both softwood and hardwood species. A comfortable contoured wooden handle provides a secure three-finger grip and natural wrist alignment that reduces fatigue during extended cutting sessions. The taper-ground blade is thinner at the back than at the teeth, reducing friction and binding during deep cuts. Essential for carpenters, woodworkers, and gardeners who appreciate the precision, quiet operation, and portability of a quality hand saw.",
+        "price": 12.18,
+        "is_location_offer": false,
+        "is_rental": false,
+        "co2_rating": "B",
+        "in_stock": true,
+        "is_eco_friendly": true,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAQ",
+          "by_name": "Jonathan Cooper",
+          "by_url": "https://unsplash.com/@theshuttervision",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/fTpzd-PjyDQ",
+          "file_name": "saw01.avif",
+          "title": "Wood Saw"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1K0",
+          "name": "Hand Saw",
+          "slug": "hand-saw"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTKAVP95TT77VYZWJRDK",
+        "name": "Adjustable Wrench",
+        "description": "Chrome vanadium steel adjustable wrench with a smooth-action worm gear jaw mechanism that opens to a generous 30mm capacity for versatile bolt, nut, and fitting work. The precision-machined worm gear ensures the movable jaw stays firmly locked in position under heavy torque loads, eliminating the slipping and rounding common with lesser tools. Laser-etched metric and imperial scales on the jaw face allow for quick size identification without a separate caliper or ruler. The slim-profile head design fits into recessed areas and tight clearances where a standard box wrench cannot reach. A corrosion-resistant chrome finish protects against rust and makes the wrench easy to wipe clean after greasy jobs. A workshop essential for plumbers, mechanics, and assembly technicians who work with multiple fastener sizes throughout the day.",
+        "price": 20.33,
+        "is_location_offer": false,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAR",
+          "by_name": "Recha Oktaviani",
+          "by_url": "https://unsplash.com/@rechaoktaviani",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/t__61ap00Mc",
+          "file_name": "wrench01.avif",
+          "title": "Adjustable wrench"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1K1",
+          "name": "Wrench",
+          "slug": "wrench"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTKB26BR9R2C2N270XYA",
+        "name": "Angled Spanner",
+        "description": "Offset angled spanner specifically designed to reach bolts, nuts, and fittings in recessed, obstructed, or deeply set locations where a straight wrench simply cannot fit or turn. Made from chrome vanadium steel with a satin-chrome finish for excellent corrosion resistance, easy cleaning, and professional appearance. The 15-degree offset angle at both ends provides ample knuckle clearance while maintaining full torque transfer to the fastener without slipping. By flipping the spanner over between turns, you can work in spaces with as little as 30 degrees of swing arc. The slim jaw profile fits into narrow gaps alongside adjacent components without interference. Indispensable for automotive mechanics working in engine bays, appliance repair technicians accessing internal components, and industrial maintenance engineers servicing tightly packed machinery.",
+        "price": 14.14,
+        "is_location_offer": true,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAS",
+          "by_name": "Tekton",
+          "by_url": "https://unsplash.com/@tekton_tools",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/9z7t48S5C_g",
+          "file_name": "wrench02.avif",
+          "title": "Wrench"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1K1",
+          "name": "Wrench",
+          "slug": "wrench"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTKDAMKG7W505A4ZGQEJ",
+        "name": "Open-end Spanners (Set)",
+        "description": "Complete professional set of 12 open-end spanners covering metric sizes from 6mm to 32mm, crafted from chrome vanadium steel for lasting strength and resistance to flexing under heavy torque. Each spanner features a slim-profile head design angled at 15 degrees for access in tight spaces, and the open-end configuration allows quick lateral placement on fasteners without the need to thread them through from the end. A mirror-polished chrome finish resists corrosion, repels grease and oil, and looks sharp in any professional tool collection. Size markings are deeply laser-etched on both sides of each spanner for instant identification even in low light conditions. The set is supplied in a durable roll-up canvas pouch with individual pockets for organized storage and easy transport to any job site. An essential investment for automotive workshops, industrial maintenance departments, and serious home mechanics.",
+        "price": 38.51,
+        "is_location_offer": false,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAT",
+          "by_name": "Akshat Swaminath",
+          "by_url": "https://unsplash.com/@akshat_swaminath",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/hg34mNWFRaI",
+          "file_name": "wrench03.avif",
+          "title": "Open-end spanners (Set)"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1K1",
+          "name": "Wrench",
+          "slug": "wrench"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTKF6XDQV2Q5BK265N1P",
+        "name": "Phillips Screwdriver",
+        "description": "Professional-quality Phillips screwdriver with a PH2 tip precision-machined from chrome vanadium steel and vapor-blasted for maximum grip inside cross-head screw recesses. The bi-component handle features a soft-grip comfort zone that absorbs torque reaction and vibration, combined with a hard polypropylene core that transmits maximum turning force to the blade. A hex bolster machined into the shaft just above the handle allows a wrench to be applied for additional turning leverage on stubborn or over-tightened screws. The round blade shaft is chrome-plated for corrosion resistance and easy cleaning after use in greasy or painted environments. A hanging hole in the handle allows convenient pegboard or hook storage for quick identification and access. Suitable for electricians, cabinet makers, assembly technicians, and anyone who needs a reliable, comfortable everyday screwdriver.",
+        "price": 4.92,
+        "is_location_offer": true,
+        "is_rental": false,
+        "co2_rating": "C",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAV",
+          "by_name": "Tekton",
+          "by_url": "https://unsplash.com/@tekton_tools",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/jlY6nV_STIw",
+          "file_name": "screwdriver01.avif",
+          "title": "Phillips Screwdriver"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1K2",
+          "name": "Screwdriver",
+          "slug": "screwdriver"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTKG3NR65WE7YEX16ZDF",
+        "name": "Mini Screwdriver",
+        "description": "Precision mini screwdriver with a PH0 tip designed specifically for working with small screws found in electronics, eyeglasses, watches, camera equipment, and detailed hobby projects. The carbon steel blade is hardened and tempered to maintain an accurate tip profile through thousands of insertions in delicate threaded fasteners. A freely rotating end cap allows single-handed operation by applying downward pressure with your index finger while your thumb and middle finger turn the barrel. The knurled aluminum barrel provides a secure, non-slip grip for fine adjustments requiring minimal torque. At just 150mm overall length, this screwdriver fits easily in a shirt pocket, precision tool roll, or electronics repair kit. An essential tool for IT technicians, jewelers, model builders, and anyone who works with miniature components.",
+        "price": 13.96,
+        "is_location_offer": false,
+        "is_rental": false,
+        "co2_rating": "C",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAW",
+          "by_name": "Everyday basics",
+          "by_url": "https://unsplash.com/@zanardi",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/a6LO3iO5AIk",
+          "file_name": "screwdriver02.avif",
+          "title": "Screwdriver"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1K2",
+          "name": "Screwdriver",
+          "slug": "screwdriver"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      }
+    ],
+    "from": 10,
+    "last_page": 5,
+    "per_page": 9,
+    "to": 18,
+    "total": 45
+  }
+}

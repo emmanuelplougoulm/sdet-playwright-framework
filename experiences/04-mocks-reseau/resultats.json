@@ -1,0 +1,513 @@
+{
+  "duree": {
+    "reelle": {
+      "dureesMs": [
+        7028,
+        4746,
+        5116,
+        5050,
+        4938
+      ],
+      "dureeMedianeMs": 5050,
+      "tests": 6
+    },
+    "mocks-manuels": {
+      "dureesMs": [
+        2094,
+        1978,
+        1963,
+        1977,
+        1995
+      ],
+      "dureeMedianeMs": 1978,
+      "tests": 6
+    },
+    "har": {
+      "dureesMs": [
+        7747,
+        7372,
+        7332,
+        7445,
+        7393
+      ],
+      "dureeMedianeMs": 7393,
+      "tests": 6
+    },
+    "contrat": {
+      "dureesMs": [
+        873,
+        904,
+        1063,
+        903,
+        849
+      ],
+      "dureeMedianeMs": 903,
+      "tests": 7
+    }
+  },
+  "reference": {
+    "reelle": [],
+    "mocks-manuels": [],
+    "har": [
+      "le filtre par catégorie ne garde que les marteaux",
+      "la page 2 affiche d’autres produits"
+    ],
+    "contrat": []
+  },
+  "bugs": {
+    "prix-en-texte": {
+      "cote": "api",
+      "description": "l’API renvoie le prix en texte (\"14.15\") au lieu d’un nombre",
+      "reelle": {
+        "detecte": true,
+        "testsRouges": [
+          "l’accueil affiche 9 produits avec un nom et un prix",
+          "la recherche ne garde que les produits correspondants",
+          "le filtre par catégorie ne garde que les marteaux",
+          "la page 2 affiche d’autres produits"
+        ],
+        "tours": [
+          4,
+          4
+        ]
+      },
+      "mocks-manuels": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "har": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "contrat": {
+        "detecte": true,
+        "testsRouges": [
+          "la réponse de QUERY /products/search a la forme de la fixture « recherche »",
+          "la réponse de QUERY /products a la forme de la fixture « produits-page-1 »",
+          "la fiche d’un produit a la forme de la fixture « produit »",
+          "le filtre par catégorie a la forme de la fixture « produits-par-categorie »"
+        ],
+        "tours": [
+          4,
+          4
+        ]
+      }
+    },
+    "nom-absent": {
+      "cote": "api",
+      "description": "la liste des produits ne renvoie plus le nom",
+      "reelle": {
+        "detecte": true,
+        "testsRouges": [
+          "l’accueil affiche 9 produits avec un nom et un prix",
+          "la recherche ne garde que les produits correspondants",
+          "la page 2 affiche d’autres produits",
+          "le filtre par catégorie ne garde que les marteaux",
+          "la fiche produit reprend le nom et le prix de la carte",
+          "un produit en stock s’ajoute au panier"
+        ],
+        "tours": [
+          6,
+          6
+        ]
+      },
+      "mocks-manuels": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "har": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "contrat": {
+        "detecte": true,
+        "testsRouges": [
+          "la réponse de QUERY /products a la forme de la fixture « produits-page-1 »",
+          "le filtre par catégorie a la forme de la fixture « produits-par-categorie »"
+        ],
+        "tours": [
+          2,
+          2
+        ]
+      }
+    },
+    "recherche-ignoree": {
+      "cote": "api",
+      "description": "la recherche ignore le mot-clé et renvoie tout le catalogue",
+      "reelle": {
+        "detecte": true,
+        "testsRouges": [
+          "la recherche ne garde que les produits correspondants"
+        ],
+        "tours": [
+          1,
+          1
+        ]
+      },
+      "mocks-manuels": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "har": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "contrat": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      }
+    },
+    "pagination-a-3": {
+      "cote": "api",
+      "description": "la liste passe à 3 produits par page",
+      "reelle": {
+        "detecte": true,
+        "testsRouges": [
+          "l’accueil affiche 9 produits avec un nom et un prix"
+        ],
+        "tours": [
+          1,
+          1
+        ]
+      },
+      "mocks-manuels": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "har": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "contrat": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      }
+    },
+    "fiche-en-erreur": {
+      "cote": "api",
+      "description": "la fiche produit répond par une erreur 500",
+      "reelle": {
+        "detecte": true,
+        "testsRouges": [
+          "la fiche produit reprend le nom et le prix de la carte",
+          "un produit en stock s’ajoute au panier"
+        ],
+        "tours": [
+          2,
+          2
+        ]
+      },
+      "mocks-manuels": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "har": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "contrat": {
+        "detecte": true,
+        "testsRouges": [
+          "la fiche d’un produit a la forme de la fixture « produit »"
+        ],
+        "tours": [
+          1,
+          1
+        ]
+      }
+    },
+    "stock-epuise": {
+      "cote": "api",
+      "description": "tous les produits sont déclarés en rupture de stock",
+      "reelle": {
+        "detecte": true,
+        "testsRouges": [
+          "un produit en stock s’ajoute au panier"
+        ],
+        "tours": [
+          1,
+          1
+        ]
+      },
+      "mocks-manuels": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "har": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "contrat": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      }
+    },
+    "filtre-categorie-ignore": {
+      "cote": "api",
+      "description": "le filtre par catégorie est ignoré",
+      "reelle": {
+        "detecte": true,
+        "testsRouges": [
+          "le filtre par catégorie ne garde que les marteaux"
+        ],
+        "tours": [
+          1,
+          1
+        ]
+      },
+      "mocks-manuels": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "har": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "contrat": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      }
+    },
+    "parametre-recherche-renomme": {
+      "cote": "ui",
+      "description": "l’interface envoie la recherche sous un autre nom de paramètre (query au lieu de q)",
+      "reelle": {
+        "detecte": true,
+        "testsRouges": [
+          "la recherche ne garde que les produits correspondants"
+        ],
+        "tours": [
+          1,
+          1
+        ]
+      },
+      "mocks-manuels": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "har": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "contrat": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      }
+    },
+    "prix-sans-centimes": {
+      "cote": "ui",
+      "description": "les cartes du catalogue affichent le prix sans les centimes",
+      "reelle": {
+        "detecte": true,
+        "testsRouges": [
+          "l’accueil affiche 9 produits avec un nom et un prix",
+          "la fiche produit reprend le nom et le prix de la carte"
+        ],
+        "tours": [
+          2,
+          2
+        ]
+      },
+      "mocks-manuels": {
+        "detecte": true,
+        "testsRouges": [
+          "l’accueil affiche 9 produits avec un nom et un prix",
+          "la fiche produit reprend le nom et le prix de la carte"
+        ],
+        "tours": [
+          2,
+          2
+        ]
+      },
+      "har": {
+        "detecte": true,
+        "testsRouges": [
+          "l’accueil affiche 9 produits avec un nom et un prix",
+          "la fiche produit reprend le nom et le prix de la carte"
+        ],
+        "tours": [
+          2,
+          2
+        ]
+      },
+      "contrat": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      }
+    },
+    "panier-mauvais-identifiant": {
+      "cote": "ui",
+      "description": "l’interface envoie le nom du produit au panier au lieu de son identifiant",
+      "reelle": {
+        "detecte": true,
+        "testsRouges": [
+          "un produit en stock s’ajoute au panier"
+        ],
+        "tours": [
+          1,
+          1
+        ]
+      },
+      "mocks-manuels": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "har": {
+        "detecte": true,
+        "testsRouges": [
+          "un produit en stock s’ajoute au panier"
+        ],
+        "tours": [
+          1,
+          1
+        ]
+      },
+      "contrat": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "donnees": {
+    "premier-produit-en-rupture": {
+      "description": "le premier produit du catalogue passe en rupture de stock (un événement normal en production)",
+      "reelle": {
+        "detecte": true,
+        "testsRouges": [
+          "un produit en stock s’ajoute au panier"
+        ],
+        "tours": [
+          1,
+          1
+        ]
+      },
+      "mocks-manuels": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "har": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      },
+      "contrat": {
+        "detecte": false,
+        "testsRouges": [],
+        "tours": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "meta": {
+    "date": "2026-11-23T20:14:06.932Z",
+    "playwright": "Version 1.64.1",
+    "application": "testsmith/practice-software-testing-sprint5 (images Docker), en local (Colima, 2 Go)",
+    "runs": 5,
+    "workers": 2
+  }
+}

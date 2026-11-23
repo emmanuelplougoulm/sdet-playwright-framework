@@ -14,3 +14,4 @@ visuels/
 .mesure-*.journal
 .donnees/
 .outil-*.json
+.mutant

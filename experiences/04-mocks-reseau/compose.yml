@@ -1,0 +1,46 @@
+# Le site de démo Practice Software Testing (sprint 5), en local, à partir des images publiées par testsmith.
+# Interface sur http://localhost:4200 (build servi en statique), API sur http://localhost:8091. Valeurs de test uniquement.
+# Les noms des services viennent du dépôt d'origine : la configuration nginx de l'image web en dépend.
+name: labo-exp04
+
+services:
+  laravel-api:
+    image: testsmith/practice-software-testing-sprint5-api
+    environment:
+      - "PHP_OPCACHE_VALIDATE_TIMESTAMPS=1"
+      - "DB_PORT=3306"
+      - "DB_HOST=mariadb"
+      - "host=localhost"
+      - "DISABLE_LOGGING=true"
+    volumes:
+      - code-api:/var/www
+
+  angular-ui:
+    image: testsmith/practice-software-testing-sprint5-ui
+    ports:
+      - "4200:4200"
+    # Un build, puis un serveur statique : « ng serve » ne tient pas dans une VM de 2 Go (l'image est en amd64,
+    # émulée sur un Mac arm64). Le script de mesure relance « ng build » après chaque bug injecté dans l'interface.
+    command: bash -c "npx ng build --configuration development && node /serveur-statique.mjs"
+    volumes:
+      - ./serveur-statique.mjs:/serveur-statique.mjs:ro
+
+  web:
+    image: testsmith/practice-software-testing-web
+    ports:
+      - "8091:80"
+    depends_on:
+      - laravel-api
+    volumes:
+      - code-api:/var/www
+
+  mariadb:
+    image: yobasystems/alpine-mariadb:10.6.11
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: user
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: toolshop
+
+volumes:
+  code-api:

@@ -1,0 +1,15 @@
+{
+  "statut": 200,
+  "corps": [
+    {
+      "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+      "name": "ForgeFlex Tools",
+      "slug": "forgeflex-tools"
+    },
+    {
+      "id": "01M84XKT3RV2GKVHGQCR5TDSAE",
+      "name": "MightyCraft Hardware",
+      "slug": "mightycraft-hardware"
+    }
+  ]
+}

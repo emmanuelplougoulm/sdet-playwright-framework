@@ -1,0 +1,216 @@
+{
+  "statut": 200,
+  "corps": {
+    "current_page": 1,
+    "data": [
+      {
+        "id": "01M84XKTJWQJSWKZXD7PBZCVGY",
+        "name": "Claw Hammer with Shock Reduction Grip",
+        "description": "Ergonomic claw hammer featuring an advanced shock reduction grip system that absorbs up to 70% of impact vibrations, protecting your wrist, elbow, and shoulder during prolonged nailing sessions. The 450g carbon steel head is precision-balanced and heat-treated for maximum hardness, ensuring accurate nail driving with minimal effort on every swing. The curved claw design effortlessly removes nails without damaging surrounding wood surfaces, making it equally useful for construction and renovation work. A fiberglass-reinforced handle combines lightweight strength with exceptional durability that far outlasts traditional wooden handles. The overmolded soft-grip zone conforms to your hand shape for a custom-feeling, fatigue-free hold throughout long working days. Recommended for professional framing, carpentry, and renovation projects where operator comfort matters as much as striking performance.",
+        "price": 13.41,
+        "is_location_offer": true,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAG",
+          "by_name": "iMattSmart",
+          "by_url": "https://unsplash.com/@imattsmart",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/jaLaLQdkBOE",
+          "file_name": "hammer01.avif",
+          "title": "Claw Hammer"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1JZ",
+          "name": "Hammer",
+          "slug": "hammer"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTJX4Y71KJ2GH5B90CZG",
+        "name": "Hammer",
+        "description": "A dependable standard claw hammer suitable for driving and removing nails in everyday construction, carpentry, and home improvement projects. The 350g carbon steel head is drop-forged and heat-treated for maximum hardness, then fitted to a traditional wooden handle that provides natural shock absorption with each strike. Well-balanced weight distribution between the head and handle ensures accurate strikes with minimal wrist effort, reducing fatigue during repetitive nailing tasks. The polished face resists rust and provides a smooth surface that drives nails cleanly without leaving marks on finish materials. A gently curved claw provides reliable nail extraction leverage without excessive force. This versatile hammer belongs in every toolbox, from professional carpentry workshops to home garages and apartment maintenance kits.",
+        "price": 12.58,
+        "is_location_offer": false,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAH",
+          "by_name": "Jozsef Hocza",
+          "by_url": "https://unsplash.com/@hocza",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/D3nouOYbALc",
+          "file_name": "hammer02.avif",
+          "title": "Hammer"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1JZ",
+          "name": "Hammer",
+          "slug": "hammer"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTJZPTVDM669VFZ5R6NN",
+        "name": "Claw Hammer",
+        "description": "Traditional claw hammer with a polished carbon steel head engineered for driving and removing nails with precision and confidence. The rubber-wrapped handle provides a secure, comfortable grip even in wet, dusty, or cold conditions where bare metal or wood handles would slip. At 500g, it offers the ideal balance between striking power and maneuverability for general carpentry, framing, and construction tasks. The curved claw design allows for smooth nail extraction without gouging or marring wood surfaces, protecting your finished work. The head-to-handle connection uses an epoxy-bonded wedge system that prevents loosening over time. A reliable, no-nonsense tool that professional carpenters and weekend builders alike reach for every day.",
+        "price": 11.48,
+        "is_location_offer": true,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAJ",
+          "by_name": "Andrew George",
+          "by_url": "https://unsplash.com/@andrewjoegeorge",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/YU2mCvXR0wA",
+          "file_name": "hammer03.avif",
+          "title": "Claw Hammer"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1JZ",
+          "name": "Hammer",
+          "slug": "hammer"
+        },
+        "brand": {
+          "id": "01M84XKT3RV2GKVHGQCR5TDSAE",
+          "name": "MightyCraft Hardware"
+        }
+      },
+      {
+        "id": "01M84XKTK0TFH2YANTF21MG0EN",
+        "name": "Thor Hammer",
+        "description": "The legendary Thor Hammer combines premium craftsmanship with raw striking power in a tool that is truly built to last generations. Forged from Uru metal with a hand-wrapped leather grip, this extraordinary 5kg masterpiece delivers unmatched impact force for the most demanding demolition, forging, and heavy construction tasks. The perfectly balanced oversized head ensures every swing transfers maximum energy to the target, while the enlarged striking face covers more surface area than any conventional hammer. Despite its impressive mass, the ergonomic handle design and precise weight distribution allow for surprisingly controlled, accurate swings. This is not merely a tool but a statement piece for those who accept nothing less than the absolute best in their workshop. Comes with a lifetime warranty because true legends never fade. Please note: only one Thor Hammer is permitted per customer.",
+        "price": 11.14,
+        "is_location_offer": false,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAK",
+          "by_name": "ANIRUDH",
+          "by_url": "https://unsplash.com/@lanirudhreddy",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/3esjG-nlgyk",
+          "file_name": "hammer04.avif",
+          "title": "Hammer"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1JZ",
+          "name": "Hammer",
+          "slug": "hammer"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTK1Q40KGST1T4A3HBZ4",
+        "name": "Sledgehammer",
+        "description": "Powerful sledgehammer designed for heavy demolition, driving stakes, breaking concrete, and splitting masonry with devastating efficiency. The 3.6kg forged steel head delivers tremendous impact force concentrated through a hardened striking face that resists chipping and mushrooming. A 900mm fiberglass handle provides excellent shock absorption, superior reach, and the flexibility needed to generate maximum swing velocity. Anti-vibration technology embedded in the handle dampens recoil forces, significantly reducing operator fatigue during extended demolition sessions. The overmolded grip zone prevents the handle from twisting or slipping out of sweaty or gloved hands during overhead swings. Built for construction workers, landscapers, and demolition crews who demand professional-grade striking tools that perform reliably under the most punishing conditions.",
+        "price": 17.75,
+        "is_location_offer": false,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAM",
+          "by_name": "Fausto Marqués",
+          "by_url": "https://unsplash.com/@faustomarques",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/A9dq-L3zzHA",
+          "file_name": "hammer05.avif",
+          "title": "Hammer"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1JZ",
+          "name": "Hammer",
+          "slug": "hammer"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTK4Z1C72B0C3GMTFP56",
+        "name": "Claw Hammer with Fiberglass Handle",
+        "description": "Modern claw hammer featuring a durable fiberglass handle that outlasts wood, absorbs vibration more effectively, and shrugs off moisture without swelling, cracking, or loosening over time. The 400g carbon steel head is drop-forged and heat-treated to optimal hardness for reliable nail driving in softwood, hardwood, and engineered lumber. The fiberglass core is permanently bonded to the head and encased in a comfortable overmold grip that prevents slipping even when wet or oily. A magnetic nail starter near the head allows one-handed nail placement, freeing your other hand to hold materials in position. The curved claw provides smooth, controlled nail extraction with excellent leverage. Ideal for contractors and DIY builders who want a weather-resistant, maintenance-free hammer that performs reliably on every job site and in any season.",
+        "price": 20.14,
+        "is_location_offer": false,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAN",
+          "by_name": "Jonny Gios",
+          "by_url": "https://unsplash.com/@supergios",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/ARaYGFeuwpU",
+          "file_name": "hammer06.avif",
+          "title": "Claw Hammer"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1JZ",
+          "name": "Hammer",
+          "slug": "hammer"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      },
+      {
+        "id": "01M84XKTK79TE4XGK45H18N3F6",
+        "name": "Court Hammer",
+        "description": "Compact precision court hammer with a 300g carbon steel head designed for light-duty nailing, tapping dowels, and delicate assembly tasks where a full-size hammer would be too heavy and unwieldy. The short 280mm wooden handle provides excellent close-quarters control for detailed work in confined spaces such as cabinets, closets, and furniture interiors. The polished flat face drives small nails and brads without bending them, while the cross-peen on the opposite side is useful for starting small fasteners between your fingers. Perfectly weighted to provide enough force for trim carpentry and light framing without damaging delicate surfaces. The lacquered wooden handle resists moisture absorption and provides a warm, comfortable grip. A handy addition to any toolkit when precision and finesse matter more than raw striking power.",
+        "price": 18.63,
+        "is_location_offer": true,
+        "is_rental": false,
+        "co2_rating": "D",
+        "in_stock": true,
+        "is_eco_friendly": false,
+        "product_image": {
+          "id": "01M84XKTHGSN8Y2XN8Q2AEJKAP",
+          "by_name": "Wesley Tingey",
+          "by_url": "https://unsplash.com/@wesleyphotography",
+          "source_name": "Unsplash",
+          "source_url": "https://unsplash.com/photos/9z9fxr_7Z-k",
+          "file_name": "hammer07.avif",
+          "title": "Hammer"
+        },
+        "category": {
+          "id": "01M84XKTH28QBAD4P60845G1JZ",
+          "name": "Hammer",
+          "slug": "hammer"
+        },
+        "brand": {
+          "id": "01M84XKT3Q7P1NP3RRWC1221BM",
+          "name": "ForgeFlex Tools"
+        }
+      }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "per_page": 9,
+    "to": 7,
+    "total": 7
+  }
+}
