@@ -11,3 +11,4 @@ visuels/
 .claude/
 .auth/
 .mesure-*.json
+.mesure-*.journal

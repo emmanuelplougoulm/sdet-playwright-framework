@@ -1,0 +1,265 @@
+{
+  "echelle": {
+    "8": {
+      "ui-par-test": {
+        "dureesMs": [
+          5413,
+          6047,
+          5915
+        ],
+        "dureeMedianeMs": 5915,
+        "connexions": 8,
+        "runsRouges": 0
+      },
+      "http-par-test": {
+        "dureesMs": [
+          5251,
+          4929,
+          8121
+        ],
+        "dureeMedianeMs": 5251,
+        "connexions": 8,
+        "runsRouges": 0
+      },
+      "session-globale": {
+        "dureesMs": [
+          5500,
+          5465,
+          6194
+        ],
+        "dureeMedianeMs": 5500,
+        "connexions": 1,
+        "runsRouges": 0
+      },
+      "session-par-worker": {
+        "dureesMs": [
+          4771,
+          4774,
+          4803
+        ],
+        "dureeMedianeMs": 4774,
+        "connexions": 4,
+        "runsRouges": 0
+      }
+    },
+    "40": {
+      "ui-par-test": {
+        "dureesMs": [
+          15666,
+          12737,
+          12945
+        ],
+        "dureeMedianeMs": 12945,
+        "connexions": 40,
+        "runsRouges": 0
+      },
+      "http-par-test": {
+        "dureesMs": [
+          9987,
+          9980,
+          10384
+        ],
+        "dureeMedianeMs": 9987,
+        "connexions": 40,
+        "runsRouges": 0
+      },
+      "session-globale": {
+        "dureesMs": [
+          9040,
+          9359,
+          9369
+        ],
+        "dureeMedianeMs": 9359,
+        "connexions": 1,
+        "runsRouges": 0
+      },
+      "session-par-worker": {
+        "dureesMs": [
+          9698,
+          7562,
+          7767
+        ],
+        "dureeMedianeMs": 7767,
+        "connexions": 4,
+        "runsRouges": 0
+      }
+    },
+    "200": {
+      "ui-par-test": {
+        "dureesMs": [
+          62070,
+          64875,
+          61879
+        ],
+        "dureeMedianeMs": 62070,
+        "connexions": 200,
+        "runsRouges": 0
+      },
+      "http-par-test": {
+        "dureesMs": [
+          42081,
+          40755,
+          43666
+        ],
+        "dureeMedianeMs": 42081,
+        "connexions": 200,
+        "runsRouges": 0
+      },
+      "session-globale": {
+        "dureesMs": [
+          36945,
+          42243,
+          35992
+        ],
+        "dureeMedianeMs": 36945,
+        "connexions": 1,
+        "runsRouges": 0
+      },
+      "session-par-worker": {
+        "dureesMs": [
+          34520,
+          30884,
+          26093
+        ],
+        "dureeMedianeMs": 30884,
+        "connexions": 4,
+        "runsRouges": 0
+      }
+    }
+  },
+  "changement": {
+    "ui-par-test": {
+      "testsRelances": 8,
+      "setupRelance": false
+    },
+    "http-par-test": {
+      "testsRelances": 0,
+      "setupRelance": false
+    },
+    "session-globale": {
+      "testsRelances": 1,
+      "setupRelance": true
+    },
+    "session-par-worker": {
+      "testsRelances": 0,
+      "setupRelance": false
+    }
+  },
+  "panne": {
+    "ui-par-test": {
+      "dureeMs": 61616,
+      "echecs": 8,
+      "nonExecutes": 0,
+      "setup": null
+    },
+    "http-par-test": {
+      "dureeMs": 4589,
+      "echecs": 0,
+      "nonExecutes": 0,
+      "setup": null
+    },
+    "session-globale": {
+      "dureeMs": 30553,
+      "echecs": 0,
+      "nonExecutes": 8,
+      "setup": "timedOut"
+    },
+    "session-par-worker": {
+      "dureeMs": 4693,
+      "echecs": 0,
+      "nonExecutes": 0,
+      "setup": null
+    }
+  },
+  "deconnexion": {
+    "1": {
+      "ui-par-test": {
+        "echecs": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "http-par-test": {
+        "echecs": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "session-globale": {
+        "echecs": [
+          40,
+          40,
+          40,
+          40,
+          40
+        ]
+      },
+      "session-par-worker": {
+        "echecs": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "4": {
+      "ui-par-test": {
+        "echecs": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "http-par-test": {
+        "echecs": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "session-globale": {
+        "echecs": [
+          1,
+          37,
+          37,
+          37,
+          36
+        ]
+      },
+      "session-par-worker": {
+        "echecs": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    }
+  },
+  "meta": {
+    "date": "2026-11-22T23:39:30.387Z",
+    "playwright": "Version 1.64.1",
+    "firefly": "fireflyiii/core:version-6.7.9 + mariadb:11.8, en local (Colima)",
+    "runs": 3,
+    "workers": 4,
+    "tailles": [
+      8,
+      40,
+      200
+    ],
+    "changementMesureLe": "2026-11-23T18:12:39.016Z"
+  }
+}

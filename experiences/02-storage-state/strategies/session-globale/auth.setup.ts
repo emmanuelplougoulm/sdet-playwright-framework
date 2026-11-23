@@ -1,5 +1,5 @@
 import { test as setup } from '@playwright/test';
-import { LoginPage } from '../commun/LoginPage';
+import { LoginPage } from '../../commun/LoginPage';
 import { SESSION } from './chemin';
 
 setup('connexion du client', async ({ page }) => {

@@ -13,7 +13,7 @@ Chaque expérience compare des organisations du code sur les mêmes tests, et me
 | # | Question | Résultats |
 |---|---|---|
 | 01 | [God object ou fixtures à la carte ?](experiences/01-god-object/) | Pour un même changement : 12 lignes à lire au lieu de 38, 2 tests relancés sur 8 au lieu de 8, durée inchangée |
-| 02 | [Se connecter dans chaque test, ou une fois avec storageState ?](experiences/02-storage-state/) | 1 connexion au lieu de 8, 15 % plus rapide ; quand la connexion casse : 1 échec clair au lieu de 8, run rouge 2 fois plus court |
+| 02 | [Se connecter dans chaque test, ou une fois avec storageState ?](experiences/02-storage-state/) | Sur 200 tests : 2 fois plus rapide avec une session par worker qu'en passant par l'écran de connexion. Mais une session partagée transmet ses incidents : une déconnexion fait tomber jusqu'à 40 tests sur 40, une session expirée 23 sur 24 |
 
 ## Démarrer
 
@@ -47,7 +47,7 @@ experiences/  Expériences mesurées, chacune avec son protocole, son script et 
 
 - [x] Page Objects, fixtures, locators `data-test`, tests UI
 - [x] Premiers tests d'API
-- [ ] Connexion avec `storageState` (projet `setup` + comptes de test du site)
+- [x] Connexion avec `storageState` (projet `setup` + comptes de test du site)
 - [ ] Panier et commande de bout en bout
 - [ ] Mock réseau avec `page.route()`
 - [ ] Tests d'API : authentification, création, validation de schéma

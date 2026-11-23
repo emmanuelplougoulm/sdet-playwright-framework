@@ -1,0 +1,46 @@
+# Firefly III pour l'expérience 02. Valeurs de test uniquement : rien ici ne protège de vraies données.
+name: labo-exp02
+
+services:
+  app:
+    image: fireflyiii/core:version-6.7.9 # même version que firefly-iii-playwright
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8090:8080"
+    environment:
+      APP_ENV: local
+      APP_DEBUG: "false"
+      APP_KEY: hazaE0kXtMnLOn3x8eXmEjFw1lIUgizx
+      APP_URL: http://localhost:8090
+      SITE_OWNER: qa@example.test
+      DEFAULT_LANGUAGE: en_US
+      DEFAULT_LOCALE: equal
+      TZ: UTC
+      TRUSTED_PROXIES: "**"
+      LOG_CHANNEL: stdout
+      DB_CONNECTION: mysql
+      DB_HOST: db
+      DB_PORT: "3306"
+      DB_DATABASE: firefly
+      DB_USERNAME: firefly
+      DB_PASSWORD: firefly
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8080/health || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 60
+
+  db:
+    image: mariadb:11.8
+    environment:
+      MARIADB_RANDOM_ROOT_PASSWORD: "yes"
+      MARIADB_DATABASE: firefly
+      MARIADB_USER: firefly
+      MARIADB_PASSWORD: firefly
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 30

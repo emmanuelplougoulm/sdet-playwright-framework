@@ -1,60 +1,50 @@
 import fs from 'node:fs';
-import { ETAPE_CONNEXION } from './commun/LoginPage';
-import type { FullConfig, FullResult, Reporter, Suite, TestCase, TestResult, TestStep } from '@playwright/test/reporter';
+import type { FullConfig, FullResult, Reporter, Suite, TestCase, TestResult } from '@playwright/test/reporter';
 
-// Reporter de mesure : compte les connexions par l'interface et le temps qu'elles prennent.
-// Une connexion = une étape « Connexion par l’interface » (voir commun/LoginPage.ts).
+// Reporter de mesure : durée du run et bilan des tests métier (hors projet setup).
 // Il écrit ses chiffres dans le fichier indiqué par MESURE_SORTIE.
 export default class MesureReporter implements Reporter {
-  private connexions = 0;
-  private msConnexion = 0;
+  private attendus = 0;
+  private passes = 0;
+  private echecs = 0;
   private setup: string | null = null;
-  private tests = { passes: 0, echecs: 0, nonExecutes: 0 };
+  private titresEnEchec: string[] = [];
+  private erreurs: Record<string, number> = {};
 
-  private testsMetier = 0;
-
-  // Les tests qui dépendent d'un setup en échec ne passent jamais par onTestEnd :
-  // on les déduit du nombre total de tests métier.
   onBegin(_config: FullConfig, suite: Suite) {
-    this.testsMetier = suite.allTests().filter((t) => t.parent.project()?.name !== 'setup').length;
-  }
-
-  onStepEnd(_test: TestCase, _result: TestResult, step: TestStep) {
-    if (step.category === 'test.step' && step.title === ETAPE_CONNEXION) {
-      this.connexions++;
-      this.msConnexion += step.duration;
-    }
+    this.attendus = suite.allTests().filter((t) => t.parent.project()?.name !== 'setup').length;
   }
 
   onTestEnd(test: TestCase, result: TestResult) {
-    // Le projet setup n'est pas un test métier : on le compte à part.
     if (test.parent.project()?.name === 'setup') {
       this.setup = result.status;
       return;
     }
-    if (result.status === 'skipped') this.tests.nonExecutes++;
-    else if (test.outcome() === 'expected') this.tests.passes++;
-    else if (result.retry === test.retries) this.tests.echecs++;
-  }
-
-  private nonExecutes() {
-    const { passes, echecs, nonExecutes } = this.tests;
-    return nonExecutes + (this.testsMetier - passes - echecs - nonExecutes);
+    if (result.retry < test.retries && result.status !== 'passed') return;
+    if (result.status === 'passed') this.passes++;
+    else if (result.status !== 'skipped') {
+      this.echecs++;
+      this.titresEnEchec.push(test.title);
+      // Première ligne de l'erreur, pour distinguer une session perdue d'une limite de débit.
+      const message = (result.error?.message ?? 'inconnue').split('\n')[0]!.replace(/\u001b\[[0-9;]*m/g, '').slice(0, 120);
+      this.erreurs[message] = (this.erreurs[message] ?? 0) + 1;
+    }
   }
 
   onEnd(result: FullResult) {
-    const sortie = process.env.MESURE_SORTIE;
+    const sortie = process.env['MESURE_SORTIE'];
     if (!sortie) return;
     fs.writeFileSync(sortie, JSON.stringify({
       statut: result.status,
       dureeMs: Math.round(result.duration),
-      connexions: this.connexions,
-      // Temps passé dans l'étape de connexion. Attention : il inclut le premier chargement de l'application
-      // dans un navigateur neuf, que la version session paie aussi, au début de chaque test.
-      msEtapeConnexion: Math.round(this.msConnexion),
-      ...this.tests,
-      nonExecutes: this.nonExecutes(),
+      attendus: this.attendus,
+      passes: this.passes,
+      echecs: this.echecs,
+      // Les tests qui dépendent d'un setup en échec ne passent jamais par onTestEnd.
+      nonExecutes: this.attendus - this.passes - this.echecs,
       setup: this.setup,
+      titresEnEchec: this.titresEnEchec,
+      erreurs: this.erreurs,
     }));
   }
 }

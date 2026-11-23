@@ -1,25 +1,29 @@
 import { defineConfig } from '@playwright/test';
-import { SESSION } from './session/chemin';
+import { SESSION } from './strategies/session-globale/chemin';
 
-// Expérience 02 : mêmes tests, deux façons de se connecter (dans chaque test / une fois avec storageState).
+// Expérience 02 : la même suite, quatre façons de se connecter.
 export default defineConfig({
   fullyParallel: true,
+  workers: 3,
   outputDir: './test-results',
   reporter: [['list']],
   use: {
     baseURL: 'https://practicesoftwaretesting.com',
     testIdAttribute: 'data-test',
     // Permet d'utiliser un Chromium déjà présent en cache (PW_CHROMIUM=/chemin/vers/chrome).
-    launchOptions: process.env.PW_CHROMIUM ? { executablePath: process.env.PW_CHROMIUM } : {},
+    launchOptions: process.env['PW_CHROMIUM'] ? { executablePath: process.env['PW_CHROMIUM'] } : {},
   },
   projects: [
-    { name: 'par-test', testDir: './par-test/specs' },
-    { name: 'setup', testDir: './session', testMatch: /auth\.setup\.ts/ },
+    { name: 'ui-par-test', testDir: './strategies/ui-par-test', testMatch: /\.spec\.ts/ },
+    { name: 'api-par-test', testDir: './strategies/api-par-test', testMatch: /\.spec\.ts/ },
+    { name: 'setup', testDir: './strategies/session-globale', testMatch: /auth\.setup\.ts/ },
     {
-      name: 'session',
-      testDir: './session/specs',
+      name: 'session-globale',
+      testDir: './strategies/session-globale',
+      testMatch: /\.spec\.ts/,
       dependencies: ['setup'],
       use: { storageState: SESSION },
     },
+    { name: 'session-par-worker', testDir: './strategies/session-par-worker', testMatch: /\.spec\.ts/ },
   ],
 });

@@ -1,71 +1,322 @@
 {
-  "par-test": {
-    "label": "Connexion dans chaque test",
-    "testsMetier": 8,
-    "connexionsParRun": 8,
-    "dureesMs": [
-      8532,
-      8355,
-      7626,
-      8663,
-      8225
-    ],
-    "dureeMedianeMs": 8355,
-    "msEtapeConnexionMedian": 5800,
-    "changement": {
-      "fichiersModifies": 1,
-      "lignesModifiees": 1,
-      "testsRelances": 8,
-      "detail": [
-        "[par-test] › par-test/specs/compte.spec.ts:3:5 › la page Mon compte s’affiche",
-        "[par-test] › par-test/specs/compte.spec.ts:8:5 › Mon compte mène aux favoris",
-        "[par-test] › par-test/specs/factures.spec.ts:3:5 › la page Factures s’affiche",
-        "[par-test] › par-test/specs/factures.spec.ts:8:5 › Mon compte mène aux factures",
-        "[par-test] › par-test/specs/messages.spec.ts:3:5 › la page Messages s’affiche",
-        "[par-test] › par-test/specs/messages.spec.ts:8:5 › Mon compte mène au profil",
-        "[par-test] › par-test/specs/profil.spec.ts:4:5 › le profil affiche l’e-mail du compte",
-        "[par-test] › par-test/specs/profil.spec.ts:9:5 › le profil propose de changer le mot de passe"
-      ]
+  "echelle": {
+    "8": {
+      "ui-par-test": {
+        "dureesMs": [
+          4808,
+          5786,
+          5248
+        ],
+        "dureeMedianeMs": 5248,
+        "connexions": 8,
+        "runsRouges": 0,
+        "erreurs": {}
+      },
+      "api-par-test": {
+        "dureesMs": [
+          4374,
+          4302,
+          4378
+        ],
+        "dureeMedianeMs": 4374,
+        "connexions": 8,
+        "runsRouges": 0,
+        "erreurs": {}
+      },
+      "session-globale": {
+        "dureesMs": [
+          4745,
+          4645,
+          4337
+        ],
+        "dureeMedianeMs": 4645,
+        "connexions": 1,
+        "runsRouges": 0,
+        "erreurs": {}
+      },
+      "session-par-worker": {
+        "dureesMs": [
+          4441,
+          5056,
+          4567
+        ],
+        "dureeMedianeMs": 4567,
+        "connexions": 3,
+        "runsRouges": 0,
+        "erreurs": {}
+      }
     },
-    "panne": {
-      "dureeMs": 63325,
+    "24": {
+      "ui-par-test": {
+        "dureesMs": [
+          10210,
+          8753,
+          8476
+        ],
+        "dureeMedianeMs": 8753,
+        "connexions": 24,
+        "runsExclus": 0,
+        "runsRouges": 0,
+        "erreurs": {}
+      },
+      "api-par-test": {
+        "dureesMs": [
+          6189,
+          5837,
+          5949
+        ],
+        "dureeMedianeMs": 5949,
+        "connexions": 24,
+        "runsExclus": 0,
+        "runsRouges": 0,
+        "erreurs": {}
+      },
+      "session-globale": {
+        "dureesMs": [
+          6555,
+          6308,
+          6398
+        ],
+        "dureeMedianeMs": 6398,
+        "connexions": 1,
+        "runsExclus": 0,
+        "runsRouges": 0,
+        "erreurs": {}
+      },
+      "session-par-worker": {
+        "dureesMs": [
+          5523,
+          4944,
+          4945
+        ],
+        "dureeMedianeMs": 4945,
+        "connexions": 3,
+        "runsExclus": 0,
+        "runsRouges": 0,
+        "erreurs": {}
+      }
+    },
+    "48": {
+      "ui-par-test": {
+        "dureesMs": [
+          15388,
+          16386,
+          18959
+        ],
+        "dureeMedianeMs": 16386,
+        "connexions": 48,
+        "runsExclus": 0,
+        "runsRouges": 0,
+        "erreurs": {}
+      },
+      "api-par-test": {
+        "dureesMs": [
+          13368,
+          13126,
+          13357
+        ],
+        "dureeMedianeMs": 13357,
+        "connexions": 48,
+        "runsExclus": 0,
+        "runsRouges": 0,
+        "erreurs": {}
+      },
+      "session-globale": {
+        "dureesMs": [
+          11766,
+          13786,
+          13394
+        ],
+        "dureeMedianeMs": 13394,
+        "connexions": 1,
+        "runsExclus": 0,
+        "runsRouges": 0,
+        "erreurs": {}
+      },
+      "session-par-worker": {
+        "dureesMs": [
+          9628,
+          10622,
+          11500
+        ],
+        "dureeMedianeMs": 10622,
+        "connexions": 3,
+        "runsExclus": 0,
+        "runsRouges": 0,
+        "erreurs": {}
+      }
+    }
+  },
+  "changement": {
+    "ui-par-test": {
+      "testsRelances": 8,
+      "setupRelance": false
+    },
+    "api-par-test": {
+      "testsRelances": 0,
+      "setupRelance": false
+    },
+    "session-globale": {
+      "testsRelances": 1,
+      "setupRelance": true
+    },
+    "session-par-worker": {
+      "testsRelances": 0,
+      "setupRelance": false
+    }
+  },
+  "panne": {
+    "ui-par-test": {
+      "dureeMs": 92401,
       "echecs": 8,
+      "nonExecutes": 0,
+      "setup": null
+    },
+    "api-par-test": {
+      "dureeMs": 4240,
+      "echecs": 0,
+      "nonExecutes": 0,
+      "setup": null
+    },
+    "session-globale": {
+      "dureeMs": 30520,
+      "echecs": 0,
+      "nonExecutes": 8,
+      "setup": "timedOut"
+    },
+    "session-par-worker": {
+      "dureeMs": 4371,
+      "echecs": 0,
       "nonExecutes": 0,
       "setup": null
     }
   },
-  "session": {
-    "label": "Connexion une fois (storageState)",
-    "testsMetier": 8,
-    "connexionsParRun": 1,
-    "dureesMs": [
-      6928,
-      7391,
-      7245,
-      6849,
-      7154
-    ],
-    "dureeMedianeMs": 7154,
-    "msEtapeConnexionMedian": 722,
-    "changement": {
-      "fichiersModifies": 1,
-      "lignesModifiees": 1,
-      "testsRelances": 1,
-      "detail": [
-        "[setup] › session/auth.setup.ts:5:6 › connexion du client"
+  "revocation": {
+    "ui-par-test": {
+      "echecs": [
+        0,
+        0,
+        0
+      ],
+      "exclus": 0,
+      "erreurs": [
+        {},
+        {},
+        {}
       ]
     },
-    "panne": {
-      "dureeMs": 30889,
-      "echecs": 0,
-      "nonExecutes": 8,
-      "setup": "timedOut"
+    "api-par-test": {
+      "echecs": [
+        0,
+        0,
+        0
+      ],
+      "exclus": 0,
+      "erreurs": [
+        {},
+        {},
+        {}
+      ]
+    },
+    "session-globale": {
+      "echecs": [
+        3,
+        3,
+        3
+      ],
+      "exclus": 0,
+      "erreurs": [
+        {
+          "Error: expect(locator).toHaveValue(expected) failed": 3
+        },
+        {
+          "Error: expect(locator).toHaveValue(expected) failed": 3
+        },
+        {
+          "Error: expect(locator).toHaveValue(expected) failed": 3
+        }
+      ]
+    },
+    "session-par-worker": {
+      "echecs": [
+        1,
+        1,
+        1
+      ],
+      "exclus": 0,
+      "erreurs": [
+        {
+          "Error: expect(locator).toHaveValue(expected) failed": 1
+        },
+        {
+          "Error: expect(locator).toHaveText(expected) failed": 1
+        },
+        {
+          "Error: expect(locator).toHaveValue(expected) failed": 1
+        }
+      ]
     }
   },
+  "expiration": {
+    "session-globale": [
+      {
+        "echecs": 23,
+        "passes": 1,
+        "rafraichissements": 24,
+        "erreurs": {
+          "Error: expect(locator).toHaveText(expected) failed": 8,
+          "Test timeout of 30000ms exceeded.": 9,
+          "Error: expect(locator).toHaveValue(expected) failed": 3,
+          "Error: expect(locator).toBeVisible() failed": 3
+        }
+      },
+      {
+        "echecs": 23,
+        "passes": 1,
+        "rafraichissements": 24,
+        "erreurs": {
+          "Error: expect(locator).toHaveText(expected) failed": 8,
+          "Test timeout of 30000ms exceeded.": 9,
+          "Error: expect(locator).toHaveValue(expected) failed": 3,
+          "Error: expect(locator).toBeVisible() failed": 3
+        }
+      }
+    ],
+    "session-par-worker": [
+      {
+        "echecs": 21,
+        "passes": 3,
+        "rafraichissements": 24,
+        "erreurs": {
+          "Error: expect(locator).toHaveText(expected) failed": 7,
+          "Error: expect(locator).toHaveValue(expected) failed": 3,
+          "Error: expect(locator).toBeVisible() failed": 3,
+          "Test timeout of 30000ms exceeded.": 8
+        }
+      },
+      {
+        "echecs": 21,
+        "passes": 3,
+        "rafraichissements": 24,
+        "erreurs": {
+          "Error: expect(locator).toHaveText(expected) failed": 7,
+          "Error: expect(locator).toHaveValue(expected) failed": 3,
+          "Error: expect(locator).toBeVisible() failed": 3,
+          "Test timeout of 30000ms exceeded.": 8
+        }
+      }
+    ]
+  },
   "meta": {
-    "date": "2026-11-22T20:49:49.925Z",
-    "changement": "getByTestId('login-submit') -> getByTestId('login-button')",
+    "date": "2026-11-22T23:41:45.644Z",
     "playwright": "Version 1.64.1",
-    "runs": 5
-  }
+    "runs": 3,
+    "workers": 3,
+    "tailles": [
+      8,
+      24,
+      48
+    ]
+  },
+  "verrous": []
 }
