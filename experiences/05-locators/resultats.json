@@ -1,0 +1,609 @@
+{
+  "duree": {
+    "css": {
+      "dureesMs": [
+        5455,
+        4676,
+        4143
+      ],
+      "dureeMedianeMs": 4676
+    },
+    "texte": {
+      "dureesMs": [
+        4108,
+        4677,
+        4239
+      ],
+      "dureeMedianeMs": 4239
+    },
+    "role": {
+      "dureesMs": [
+        4045,
+        5348,
+        4916
+      ],
+      "dureeMedianeMs": 4916
+    },
+    "data-test": {
+      "dureesMs": [
+        4708,
+        4588,
+        4013
+      ],
+      "dureeMedianeMs": 4588
+    }
+  },
+  "changements": {
+    "titre-de-carte-en-h3": {
+      "famille": "refactor",
+      "description": "le nom du produit sur les cartes passe de <h5> à <h3>, avec le même style",
+      "css": {
+        "testsCasses": 3,
+        "testsCassesTitres": [
+          "la recherche ne garde que les pinces",
+          "le filtre par catégorie ne garde que les marteaux",
+          "la fiche reprend le nom et le prix du produit"
+        ],
+        "tours": [
+          3,
+          3
+        ],
+        "titres": [
+          "la recherche ne garde que les pinces",
+          "le filtre par catégorie ne garde que les marteaux",
+          "la fiche reprend le nom et le prix du produit"
+        ],
+        "erreurs": {
+          "Error: expect(locator).toBeVisible() failed": 2,
+          "TimeoutError: locator.click: Timeout 5000ms exceeded.": 1
+        }
+      },
+      "texte": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "role": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "data-test": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      }
+    },
+    "data-test-renommes": {
+      "famille": "refactor",
+      "description": "un nettoyage renomme deux attributs data-test (product-name, add-to-cart)",
+      "css": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "texte": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          1,
+          0
+        ],
+        "titres": [
+          "le filtre par catégorie ne garde que les marteaux"
+        ],
+        "erreurs": {
+          "Error: locator.check: Error: Not a checkbox or radio button": 1
+        }
+      },
+      "role": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "data-test": {
+        "testsCasses": 4,
+        "testsCassesTitres": [
+          "la recherche ne garde que les pinces",
+          "le filtre par catégorie ne garde que les marteaux",
+          "un produit s’ajoute au panier",
+          "la fiche reprend le nom et le prix du produit"
+        ],
+        "tours": [
+          4,
+          4
+        ],
+        "titres": [
+          "la recherche ne garde que les pinces",
+          "le filtre par catégorie ne garde que les marteaux",
+          "un produit s’ajoute au panier",
+          "la fiche reprend le nom et le prix du produit"
+        ],
+        "erreurs": {
+          "Error: expect(locator).toBeVisible() failed": 2,
+          "TimeoutError: locator.click: Timeout 5000ms exceeded.": 2
+        }
+      }
+    },
+    "couleur-du-bouton-recherche": {
+      "famille": "visible",
+      "description": "le bouton de recherche change de couleur (btn-secondary devient btn-primary)",
+      "css": {
+        "testsCasses": 1,
+        "testsCassesTitres": [
+          "la recherche ne garde que les pinces"
+        ],
+        "tours": [
+          1,
+          1
+        ],
+        "titres": [
+          "la recherche ne garde que les pinces"
+        ],
+        "erreurs": {
+          "TimeoutError: locator.click: Timeout 5000ms exceeded.": 1
+        }
+      },
+      "texte": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "role": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "data-test": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      }
+    },
+    "style-des-cases": {
+      "famille": "visible",
+      "description": "les cases à cocher passent au style Bootstrap (icheck devient form-check-input)",
+      "css": {
+        "testsCasses": 1,
+        "testsCassesTitres": [
+          "le filtre par catégorie ne garde que les marteaux"
+        ],
+        "tours": [
+          1,
+          1
+        ],
+        "titres": [
+          "le filtre par catégorie ne garde que les marteaux"
+        ],
+        "erreurs": {
+          "TimeoutError: locator.check: Timeout 5000ms exceeded.": 1
+        }
+      },
+      "texte": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          1,
+          0
+        ],
+        "titres": [
+          "le filtre par catégorie ne garde que les marteaux"
+        ],
+        "erreurs": {
+          "Error: locator.check: Error: Not a checkbox or radio button": 1
+        }
+      },
+      "role": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "data-test": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      }
+    },
+    "add-to-basket": {
+      "famille": "visible",
+      "description": "le bouton « Add to cart » devient « Add to basket »",
+      "css": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          2
+        ],
+        "titres": [
+          "le filtre par catégorie ne garde que les marteaux",
+          "la recherche ne garde que les pinces"
+        ],
+        "erreurs": {}
+      },
+      "texte": {
+        "testsCasses": 1,
+        "testsCassesTitres": [
+          "un produit s’ajoute au panier"
+        ],
+        "tours": [
+          1,
+          2
+        ],
+        "titres": [
+          "un produit s’ajoute au panier",
+          "le filtre par catégorie ne garde que les marteaux"
+        ],
+        "erreurs": {
+          "TimeoutError: locator.click: Timeout 5000ms exceeded.": 1
+        }
+      },
+      "role": {
+        "testsCasses": 1,
+        "testsCassesTitres": [
+          "un produit s’ajoute au panier"
+        ],
+        "tours": [
+          1,
+          1
+        ],
+        "titres": [
+          "un produit s’ajoute au panier"
+        ],
+        "erreurs": {
+          "TimeoutError: locator.click: Timeout 5000ms exceeded.": 1
+        }
+      },
+      "data-test": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      }
+    },
+    "recherche-en-icone": {
+      "famille": "visible",
+      "description": "le bouton de recherche affiche une loupe au lieu du mot « Search » (aria-label conservé)",
+      "css": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "texte": {
+        "testsCasses": 1,
+        "testsCassesTitres": [
+          "la recherche ne garde que les pinces"
+        ],
+        "tours": [
+          1,
+          1
+        ],
+        "titres": [
+          "la recherche ne garde que les pinces"
+        ],
+        "erreurs": {
+          "TimeoutError: locator.click: Timeout 5000ms exceeded.": 1
+        }
+      },
+      "role": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "data-test": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      }
+    },
+    "contact-us": {
+      "famille": "visible",
+      "description": "le lien « Contact » du menu devient « Contact us »",
+      "css": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "texte": {
+        "testsCasses": 1,
+        "testsCassesTitres": [
+          "le menu mène à la page Contact"
+        ],
+        "tours": [
+          2,
+          1
+        ],
+        "titres": [
+          "le filtre par catégorie ne garde que les marteaux",
+          "le menu mène à la page Contact"
+        ],
+        "erreurs": {
+          "Error: locator.check: Error: Not a checkbox or radio button": 1,
+          "TimeoutError: locator.click: Timeout 5000ms exceeded.": 1
+        }
+      },
+      "role": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "data-test": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      }
+    },
+    "ajouter-devient-une-div": {
+      "famille": "accessibilite",
+      "description": "le bouton « Add to cart » devient une <div> cliquable : plus de rôle bouton, plus de clavier",
+      "css": {
+        "testsCasses": 1,
+        "testsCassesTitres": [
+          "un produit s’ajoute au panier"
+        ],
+        "tours": [
+          1,
+          1
+        ],
+        "titres": [
+          "un produit s’ajoute au panier"
+        ],
+        "erreurs": {
+          "TimeoutError: locator.click: Timeout 5000ms exceeded.": 1
+        }
+      },
+      "texte": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "role": {
+        "testsCasses": 1,
+        "testsCassesTitres": [
+          "un produit s’ajoute au panier"
+        ],
+        "tours": [
+          1,
+          1
+        ],
+        "titres": [
+          "un produit s’ajoute au panier"
+        ],
+        "erreurs": {
+          "TimeoutError: locator.click: Timeout 5000ms exceeded.": 1
+        }
+      },
+      "data-test": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      }
+    },
+    "champ-recherche-sans-label": {
+      "famille": "accessibilite",
+      "description": "le champ de recherche perd son label (le placeholder reste)",
+      "css": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "texte": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "role": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "data-test": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      }
+    },
+    "cases-sans-nom": {
+      "famille": "accessibilite",
+      "description": "le nom des catégories sort du <label> : les cases n’ont plus de nom accessible, cliquer sur le nom ne coche plus rien",
+      "css": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      },
+      "texte": {
+        "testsCasses": 1,
+        "testsCassesTitres": [
+          "le filtre par catégorie ne garde que les marteaux"
+        ],
+        "tours": [
+          1,
+          1
+        ],
+        "titres": [
+          "le filtre par catégorie ne garde que les marteaux"
+        ],
+        "erreurs": {
+          "Error: locator.check: Error: Not a checkbox or radio button": 1
+        }
+      },
+      "role": {
+        "testsCasses": 1,
+        "testsCassesTitres": [
+          "le filtre par catégorie ne garde que les marteaux"
+        ],
+        "tours": [
+          1,
+          1
+        ],
+        "titres": [
+          "le filtre par catégorie ne garde que les marteaux"
+        ],
+        "erreurs": {
+          "TimeoutError: locator.check: Timeout 5000ms exceeded.": 1
+        }
+      },
+      "data-test": {
+        "testsCasses": 0,
+        "testsCassesTitres": [],
+        "tours": [
+          0,
+          0
+        ],
+        "titres": [],
+        "erreurs": {}
+      }
+    }
+  },
+  "stabilite": {
+    "css": {
+      "executions": 50,
+      "echecs": 0,
+      "parTest": {},
+      "erreurs": {}
+    },
+    "texte": {
+      "executions": 50,
+      "echecs": 0,
+      "parTest": {},
+      "erreurs": {}
+    },
+    "role": {
+      "executions": 50,
+      "echecs": 0,
+      "parTest": {},
+      "erreurs": {}
+    },
+    "data-test": {
+      "executions": 50,
+      "echecs": 0,
+      "parTest": {},
+      "erreurs": {}
+    }
+  },
+  "meta": {
+    "date": "2026-11-24T16:54:26.743Z",
+    "playwright": "Version 1.64.1",
+    "application": "testsmith/practice-software-testing-sprint5 (images Docker), en local",
+    "runs": 3,
+    "tests": 5
+  }
+}

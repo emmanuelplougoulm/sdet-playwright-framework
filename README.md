@@ -16,6 +16,7 @@ Chaque expérience compare des organisations du code sur les mêmes tests, et me
 | 02 | [Se connecter dans chaque test, ou une fois avec storageState ?](experiences/02-storage-state/) | Sur 200 tests : 2 fois plus rapide avec une session par worker qu'en passant par l'écran de connexion. Mais une session partagée transmet ses incidents : une déconnexion fait tomber jusqu'à 40 tests sur 40, une session expirée 23 sur 24 |
 | 03 | [Données de test partagées, ou créées par chaque test ?](experiences/03-donnees-de-test/) | Un jeu partagé : 0 échec avec 1 worker, 10 sur 40 avec 4, sous forme de faux bugs. Une factory par worker : 0 échec, et 25 s au lieu de 45 s pour une factory par test sur 200 tests |
 | 04 | [Mocker le réseau, ou tester contre le vrai backend ?](experiences/04-mocks-reseau/) | Sur 10 bugs injectés : 10 détectés contre le vrai backend, 1 avec des mocks écrits à la main, 4 avec mocks et tests de contrat. Les mocks divisent la durée par 2,5 |
+| 05 | [CSS, texte, rôle ou data-test : quels locators résistent aux changements ?](experiences/05-locators/) | Sur 10 changements d'interface : le CSS casse sur un refactor invisible et deux retouches de style, le data-test ne voit aucune des 3 régressions d'accessibilité, les rôles en rattrapent 2 sans aucune fausse alerte sur les refactors |
 
 ## Démarrer
 
