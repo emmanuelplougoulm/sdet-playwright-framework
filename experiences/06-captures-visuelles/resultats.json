@@ -1,0 +1,4523 @@
+{
+  "cas": {
+    "D1-nom-tronque": {
+      "famille": "defaut",
+      "description": "le nom du produit sur les cartes tient sur une ligne, coupé par des points de suspension",
+      "ecrans": [
+        "accueil"
+      ],
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [
+            "A-bureau/accueil",
+            "A-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [
+            "C-bureau/accueil",
+            "C-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [
+            "D-bureau/filtres",
+            "D-bureau/carte-produit",
+            "D-mobile/carte-produit"
+          ],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/accueil",
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/accueil",
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/accueil": {
+          "ratios": [
+            0.034718767274737425,
+            0.034718767274737425
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0.05873155568871245,
+            0.05873155568871245
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0.02740162037037037,
+            0.02740162037037037
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0.043680872843482384,
+            0.043680872843482384
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            1,
+            1
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0.0010679372381500042,
+            0.0010679372381500042
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0.0008087594873709095,
+            0.0008087594873709095
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        }
+      },
+      "durees": [
+        24067,
+        24037
+      ]
+    },
+    "D2-prix-illisible": {
+      "famille": "defaut",
+      "description": "le prix des cartes passe en gris très clair (#c8c8c8)",
+      "ecrans": [
+        "accueil"
+      ],
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [
+            "A-bureau/accueil",
+            "A-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [
+            "D-bureau/carte-produit",
+            "D-mobile/carte-produit"
+          ],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/accueil": {
+          "ratios": [
+            0.00036276948590381424,
+            0.00036276948590381424
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0.0005243052954834843,
+            0.0005243052954834843
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0.000996056847120677,
+            0.000996056847120677
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0.0007543237526440214,
+            0.0007543237526440214
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        }
+      },
+      "durees": [
+        35376,
+        27190
+      ]
+    },
+    "D3-police-de-secours": {
+      "famille": "defaut",
+      "description": "la pile de polices est remplacée par une police absente : retour à une police à empattements",
+      "ecrans": [
+        "accueil",
+        "fiche",
+        "contact"
+      ],
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [
+            "A-bureau/fiche",
+            "A-bureau/accueil",
+            "A-bureau/contact",
+            "A-mobile/accueil",
+            "A-mobile/fiche",
+            "A-mobile/contact"
+          ],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [
+            "C-bureau/fiche",
+            "C-bureau/accueil",
+            "C-bureau/contact",
+            "C-mobile/accueil",
+            "C-mobile/contact",
+            "C-mobile/fiche"
+          ],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [
+            "D-bureau/en-tete",
+            "D-bureau/filtres",
+            "D-bureau/carte-produit",
+            "D-bureau/bloc-fiche",
+            "D-bureau/formulaire-contact",
+            "D-mobile/carte-produit",
+            "D-mobile/bloc-fiche",
+            "D-mobile/formulaire-contact"
+          ],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-bureau/accueil",
+            "B-bureau/contact",
+            "B-mobile/accueil",
+            "B-mobile/fiche",
+            "B-mobile/contact"
+          ],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-bureau/accueil",
+            "B-mobile/accueil",
+            "B-mobile/fiche",
+            "B-mobile/contact"
+          ],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-mobile/fiche"
+          ],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/fiche": {
+          "ratios": [
+            0.07202487884358288,
+            0.07202487884358288
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "A-bureau/accueil": {
+          "ratios": [
+            0.012065108485351023,
+            0.012065108485351023
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0.009333020264116575,
+            0.009333020264116575
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0.010723291638578884,
+            0.010723291638578884
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0.19944443030781106,
+            0.19944443030781106
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0.027414415649709766,
+            0.027414415649709766
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0.05240380598262032,
+            0.05240380598262032
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0.012254266860143725,
+            0.012254266860143725
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0.009333020264116575,
+            0.009333020264116575
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0.010996679399795272,
+            0.010996679399795272
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0.027414415649709766,
+            0.027414415649709766
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0.16046294647022402,
+            0.16046294647022402
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0.0073075457317073175,
+            0.0073075457317073175
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            0.028291961670789616,
+            0.028291961670789616
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0.011747309619650046,
+            0.011747309619650046
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0.06344642324146851,
+            0.06344642324146851
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0.009245036126756557,
+            0.009245036126756557
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0.008896354361080005,
+            0.008896354361080005
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0.12309008582109199,
+            0.12309008582109199
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0.017827261302171212,
+            0.017827261302171212
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        }
+      },
+      "durees": [
+        31501,
+        29884
+      ]
+    },
+    "D4-grille-qui-deborde": {
+      "famille": "defaut",
+      "description": "la grille des produits exige des cartes de 420 px au lieu de 250 px",
+      "ecrans": [
+        "accueil"
+      ],
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [
+            "A-bureau/accueil",
+            "A-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [
+            "C-bureau/accueil",
+            "C-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [
+            "D-bureau/carte-produit",
+            "D-bureau/filtres",
+            "D-mobile/carte-produit"
+          ],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/accueil",
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/accueil",
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/accueil",
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/accueil": {
+          "ratios": [
+            0.2488628787878788,
+            0.2488628787878788
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0.19383953086484731,
+            0.19383953086484731
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0.2366070075757576,
+            0.2366070075757576
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0.137009636218497,
+            0.137009636218497
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0.4907227978591579,
+            0.4907227978591579
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            1,
+            1
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0.2889627659574468,
+            0.2889627659574468
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        }
+      },
+      "durees": [
+        29856,
+        29052
+      ]
+    },
+    "D5-bouton-recouvert": {
+      "famille": "defaut",
+      "description": "une marge négative fait remonter les boutons de la fiche sur le champ quantité",
+      "ecrans": [
+        "fiche"
+      ],
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [
+            "A-bureau/fiche",
+            "A-mobile/fiche"
+          ],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [
+            "C-bureau/fiche",
+            "C-mobile/fiche"
+          ],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [
+            "D-bureau/bloc-fiche",
+            "D-mobile/bloc-fiche"
+          ],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-mobile/fiche"
+          ],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-mobile/fiche"
+          ],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-mobile/fiche"
+          ],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/fiche": {
+          "ratios": [
+            0.05489012366310161,
+            0.05489012366310161
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0.16741308090960755,
+            0.16741308090960755
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0.036168846089572194,
+            0.036168846089572194
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0.12630940566765905,
+            0.12630940566765905
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0.0283122740689152,
+            0.0283122740689152
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0.052987942926341285,
+            0.052987942926341285
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        }
+      },
+      "durees": [
+        25462,
+        27158
+      ]
+    },
+    "D6-ecart-espacement": {
+      "famille": "defaut",
+      "description": "les espacements internes des cartes passent de 1rem à 0,75rem",
+      "ecrans": [
+        "accueil"
+      ],
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [
+            "A-bureau/accueil",
+            "A-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [
+            "C-bureau/accueil",
+            "C-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [
+            "D-bureau/carte-produit",
+            "D-bureau/filtres",
+            "D-mobile/carte-produit"
+          ],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/accueil",
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/accueil",
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/accueil": {
+          "ratios": [
+            0.04620646766169154,
+            0.04620646766169154
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0.1857925748383392,
+            0.1857925748383392
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0.029402466832504148,
+            0.029402466832504148
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0.13554415399595535,
+            0.13554415399595535
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0.012630411566581779,
+            0.012630411566581779
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            0.00591998635161648,
+            1
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0.009767326116710216,
+            0.009767326116710216
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        }
+      },
+      "durees": [
+        27260,
+        26799
+      ]
+    },
+    "D7-focus-invisible": {
+      "famille": "defaut",
+      "description": "le contour de focus est supprimé partout",
+      "ecrans": [
+        "accueil",
+        "fiche",
+        "contact"
+      ],
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        }
+      },
+      "durees": [
+        20086,
+        20013
+      ]
+    },
+    "V1-en-tete-sombre": {
+      "famille": "voulu",
+      "description": "l’en-tête passe en sombre (navbar-dark bg-dark)",
+      "ecrans": [
+        "accueil",
+        "fiche",
+        "contact"
+      ],
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [
+            "A-bureau/fiche",
+            "A-bureau/accueil",
+            "A-bureau/contact",
+            "A-mobile/accueil",
+            "A-mobile/fiche",
+            "A-mobile/contact"
+          ],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [
+            "C-bureau/accueil",
+            "C-bureau/fiche",
+            "C-bureau/contact",
+            "C-mobile/accueil",
+            "C-mobile/fiche",
+            "C-mobile/contact"
+          ],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [
+            "D-bureau/en-tete",
+            "D-mobile/en-tete"
+          ],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-bureau/accueil",
+            "B-bureau/contact",
+            "B-mobile/accueil",
+            "B-mobile/fiche",
+            "B-mobile/contact"
+          ],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-bureau/accueil",
+            "B-bureau/contact",
+            "B-mobile/accueil",
+            "B-mobile/fiche",
+            "B-mobile/contact"
+          ],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-bureau/contact",
+            "B-mobile/contact"
+          ],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/fiche": {
+          "ratios": [
+            0.05090345086898396,
+            0.05090345086898396
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-bureau/accueil": {
+          "ratios": [
+            0.042095943891652846,
+            0.042095943891652846
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0.06935479280510018,
+            0.06935479280510018
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0.01662984046138866,
+            0.01662984046138866
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0.022598539403038246,
+            0.022598539403038246
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0.06088715206362265,
+            0.06088715206362265
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0.042095943891652846,
+            0.042095943891652846
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0.05090345086898396,
+            0.05090345086898396
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0.06935479280510018,
+            0.06935479280510018
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0.01662984046138866,
+            0.01662984046138866
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0.022598539403038246,
+            0.022598539403038246
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0.06088715206362265,
+            0.06088715206362265
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0.928687118902439,
+            0.928687118902439
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0.8330519074421513,
+            0.8330519074421513
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        }
+      },
+      "durees": [
+        29448,
+        28625
+      ]
+    },
+    "V2-add-to-basket": {
+      "famille": "voulu",
+      "description": "le bouton « Add to cart » devient « Add to basket »",
+      "ecrans": [
+        "fiche"
+      ],
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [
+            "A-bureau/fiche",
+            "A-mobile/fiche"
+          ],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [
+            "C-bureau/fiche",
+            "C-mobile/fiche"
+          ],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [
+            "D-bureau/bloc-fiche",
+            "D-mobile/bloc-fiche"
+          ],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-mobile/fiche"
+          ],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/fiche": {
+          "ratios": [
+            0.0013859876336898395,
+            0.0013859876336898395
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0.0019915689118467817,
+            0.0019915689118467817
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0.0013859876336898395,
+            0.0013859876336898395
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0.0019915689118467817,
+            0.0019915689118467817
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0.004402547010247736,
+            0.004402547010247736
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0.006181224661717475,
+            0.006181224661717475
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        }
+      },
+      "durees": [
+        23099,
+        22248
+      ]
+    },
+    "V3-nouvelle-banniere": {
+      "famille": "voulu",
+      "description": "la bannière de l’accueil est remplacée par une autre image",
+      "ecrans": [
+        "accueil"
+      ],
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [
+            "A-bureau/accueil",
+            "A-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [
+            "C-bureau/accueil",
+            "C-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/accueil",
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/accueil",
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/accueil"
+          ],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/accueil": {
+          "ratios": [
+            0.07609953703703703,
+            0.07609953703703703
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0.011611489776046738,
+            0.011611489776046738
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0.07609953703703703,
+            0.07609953703703703
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0.011611489776046738,
+            0.011611489776046738
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        }
+      },
+      "durees": [
+        21245,
+        23829
+      ]
+    },
+    "B2-autre-machine": {
+      "famille": "bruit",
+      "description": "la suite lancée sur le Mac, hors Docker, contre les références faites sous Linux",
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [
+            "A-bureau/fiche",
+            "A-bureau/accueil",
+            "A-bureau/contact",
+            "A-mobile/accueil",
+            "A-mobile/fiche",
+            "A-mobile/contact"
+          ],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [
+            "C-bureau/accueil",
+            "C-bureau/fiche",
+            "C-bureau/contact",
+            "C-mobile/accueil",
+            "C-mobile/fiche",
+            "C-mobile/contact"
+          ],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [
+            "D-bureau/en-tete",
+            "D-bureau/filtres",
+            "D-bureau/carte-produit",
+            "D-bureau/formulaire-contact",
+            "D-bureau/bloc-fiche",
+            "D-mobile/carte-produit",
+            "D-mobile/bloc-fiche",
+            "D-mobile/formulaire-contact"
+          ],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-bureau/accueil",
+            "B-bureau/contact",
+            "B-mobile/accueil",
+            "B-mobile/fiche",
+            "B-mobile/contact"
+          ],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-bureau/accueil",
+            "B-bureau/contact",
+            "B-mobile/accueil",
+            "B-mobile/fiche",
+            "B-mobile/contact"
+          ],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/fiche",
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/fiche": {
+          "ratios": [
+            0.07322574013157895,
+            0.07322574013157895
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "A-bureau/accueil": {
+          "ratios": [
+            0.01988369685256764,
+            0.01988369685256764
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0.010505606785063753,
+            0.010505606785063753
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0.0529185666940769,
+            0.0529185666940769
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0.03582703546315852,
+            0.03582703546315852
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0.03024818318935966,
+            0.03024818318935966
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0.015234159304251794,
+            0.015234159304251794
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0.05357164884868421,
+            0.05357164884868421
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0.010505606785063753,
+            0.010505606785063753
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0.027570332162168896,
+            0.027570332162168896
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0.03557427245816264,
+            0.03557427245816264
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0.03024818318935966,
+            0.03024818318935966
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0.008479420731707318,
+            0.008479420731707318
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            0.027843254052674127,
+            0.027843254052674127
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0.014839773460463116,
+            0.014839773460463116
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0.009550833475564659,
+            0.009550833475564659
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0.06599847995439863,
+            0.06599847995439863
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0.011385670187848047,
+            0.011385670187848047
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0.06600131492439185,
+            0.06600131492439185
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ],
+          "tailleDifferente": true
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0.017896695620777524,
+            0.017896695620777524
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        }
+      },
+      "durees": [
+        20241,
+        20158
+      ]
+    },
+    "B3-donnee-modifiee": {
+      "famille": "bruit",
+      "description": "le prix de « Combination Pliers » passe de 14.15 à 15.15 dans la base",
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [
+            "A-bureau/fiche",
+            "A-bureau/accueil",
+            "A-mobile/accueil",
+            "A-mobile/fiche"
+          ],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [
+            "D-bureau/carte-produit",
+            "D-bureau/bloc-fiche",
+            "D-mobile/carte-produit",
+            "D-mobile/bloc-fiche"
+          ],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/fiche": {
+          "ratios": [
+            0.000019844585561497326,
+            0.000019844585561497326
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-bureau/accueil": {
+          "ratios": [
+            0.00001554726368159204,
+            0.00001554726368159204
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0.000022470226949292187,
+            0.000022470226949292187
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0.000032231524126992204,
+            0.000032231524126992204
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0.00036967058243653986,
+            0.00036967058243653986
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0.0000630119722747322,
+            0.0000630119722747322
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0.0002799552071668533,
+            0.0002799552071668533
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0.00010003685568367293,
+            0.00010003685568367293
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        }
+      },
+      "durees": [
+        22984,
+        23390
+      ]
+    },
+    "B4-api-lente": {
+      "famille": "bruit",
+      "description": "chaque réponse de l’API est retardée de 1,5 s",
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        }
+      },
+      "durees": [
+        30870,
+        29985
+      ]
+    },
+    "B5-souris-sur-carte": {
+      "famille": "bruit",
+      "description": "le pointeur survole la première carte au moment de la capture",
+      "bilan": {
+        "A": {
+          "total": 6,
+          "enEchec": [
+            "A-bureau/accueil",
+            "A-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "C": {
+          "total": 6,
+          "enEchec": [
+            "C-bureau/accueil",
+            "C-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "D": {
+          "total": 9,
+          "enEchec": [
+            "D-bureau/carte-produit",
+            "D-mobile/carte-produit"
+          ],
+          "isolees": []
+        },
+        "B-0.1%": {
+          "total": 6,
+          "enEchec": [
+            "B-bureau/accueil",
+            "B-mobile/accueil"
+          ],
+          "isolees": []
+        },
+        "B-1%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        },
+        "B-5%": {
+          "total": 6,
+          "enEchec": [],
+          "isolees": []
+        }
+      },
+      "captures": {
+        "A-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-bureau/accueil": {
+          "ratios": [
+            0.008029729823106688,
+            0.008029729823106688
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "A-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "A-mobile/accueil": {
+          "ratios": [
+            0.0076685891194167724,
+            0.0076685891194167724
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-bureau/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-bureau/accueil": {
+          "ratios": [
+            0.01160084991708126,
+            0.01160084991708126
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "C-mobile/fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "C-mobile/accueil": {
+          "ratios": [
+            0.015741642323920804,
+            0.015741642323920804
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(page).toHaveScreenshot(expected) failed",
+            "Error: expect(page).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/filtres": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/carte-produit": {
+          "ratios": [
+            0.10232687094389221,
+            0.10232687094389221
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-bureau/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-bureau/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/en-tete": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/carte-produit": {
+          "ratios": [
+            0.0945548712206047,
+            0.0945548712206047
+          ],
+          "statuts": [
+            "failed",
+            "failed"
+          ],
+          "erreurs": [
+            "Error: expect(locator).toHaveScreenshot(expected) failed",
+            "Error: expect(locator).toHaveScreenshot(expected) failed"
+          ]
+        },
+        "D-mobile/bloc-fiche": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        },
+        "D-mobile/formulaire-contact": {
+          "ratios": [
+            0,
+            0
+          ],
+          "statuts": [
+            "passed",
+            "passed"
+          ],
+          "erreurs": []
+        }
+      },
+      "durees": [
+        21041,
+        20299
+      ]
+    }
+  },
+  "references": {
+    "date": "2026-11-25T19:13:22.725Z",
+    "tailleKo": {
+      "A": 3936,
+      "C": 1184,
+      "D": 1164
+    }
+  },
+  "stabilite": {
+    "executions": 210,
+    "echecs": 0,
+    "instables": {}
+  },
+  "duree": {
+    "A": {
+      "dureesMs": [
+        7163,
+        7756,
+        6976
+      ],
+      "dureeMedianeMs": 7163
+    },
+    "C": {
+      "dureesMs": [
+        6945,
+        6602,
+        6833
+      ],
+      "dureeMedianeMs": 6833
+    },
+    "D": {
+      "dureesMs": [
+        9830,
+        10104,
+        9306
+      ],
+      "dureeMedianeMs": 9830
+    }
+  },
+  "meta": {
+    "date": "2026-11-25T20:04:07.566Z",
+    "playwright": "Version 1.64.1",
+    "image": "mcr.microsoft.com/playwright:v1.64.1-noble",
+    "application": "testsmith/practice-software-testing-sprint5 (images Docker), en local",
+    "seuilsB": [
+      0.001,
+      0.01,
+      0.05
+    ]
+  }
+}

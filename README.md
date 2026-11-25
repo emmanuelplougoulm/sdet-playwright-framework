@@ -17,6 +17,7 @@ Chaque expérience compare des organisations du code sur les mêmes tests, et me
 | 03 | [Données de test partagées, ou créées par chaque test ?](experiences/03-donnees-de-test/) | Un jeu partagé : 0 échec avec 1 worker, 10 sur 40 avec 4, sous forme de faux bugs. Une factory par worker : 0 échec, et 25 s au lieu de 45 s pour une factory par test sur 200 tests |
 | 04 | [Mocker le réseau, ou tester contre le vrai backend ?](experiences/04-mocks-reseau/) | Sur 10 bugs injectés : 10 détectés contre le vrai backend, 1 avec des mocks écrits à la main, 4 avec mocks et tests de contrat. Les mocks divisent la durée par 2,5 |
 | 05 | [CSS, texte, rôle ou data-test : quels locators résistent aux changements ?](experiences/05-locators/) | Sur 10 changements d'interface : le CSS casse sur un refactor invisible et deux retouches de style, le data-test ne voit aucune des 3 régressions d'accessibilité, les rôles en rattrapent 2 sans aucune fausse alerte sur les refactors |
+| 06 | [Comparer des captures : quels défauts visuels rattrape-t-on, et à quel prix ?](experiences/06-captures-visuelles/) | Sur 7 défauts visuels et 4 sources de bruit : la capture stricte rattrape les 6 défauts de mise en page mais échoue sur 3 bruits sur 4, un seuil de 0,1 % suffit à perdre des prix illisibles, les masques les cachent, et aucune stratégie ne voit le focus supprimé |
 
 ## Démarrer
 
