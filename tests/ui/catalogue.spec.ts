@@ -16,10 +16,13 @@ test.describe('Catalogue', () => {
     await expect(homePage.productNames.first()).toContainText(/pliers/i);
   });
 
-  test('la fiche produit affiche le nom et le prix', async ({ homePage, productPage }) => {
-    await homePage.openProduct('Combination Pliers');
-    await expect(productPage.name).toHaveText('Combination Pliers');
-    await expect(productPage.price).toBeVisible();
+  test('la fiche produit reprend le nom et le prix de la carte', async ({ homePage, productPage }) => {
+    // Pas de produit nommé : le catalogue public change sous nos pieds (voir l'expérience 03).
+    const { name, price } = await homePage.openFirstProduct();
+    // Le titre peut porter un badge « ECO » après le nom : on vérifie qu'il commence par le nom exact.
+    const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    await expect(productPage.name).toHaveText(new RegExp(`^\\s*${escaped}(\\s|$)`));
+    await expect(productPage.price).toHaveText(price);
     // Visible et non « actif » : le bouton se désactive quand le produit est en rupture,
     // et le stock du site de démo change sans prévenir.
     await expect(productPage.addToCart).toBeVisible();
